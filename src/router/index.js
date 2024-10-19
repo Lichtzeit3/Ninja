@@ -7,7 +7,7 @@ const routes = [
 	//   { path: '/', component: () => import('@/pages/HomeView.vue') },
 	//   { path: '/about', component: () => import('@/pages/AboutView.vue') }
 	{
-		path: "/home",
+		path: "/",
 		name: "Home",
 		component: Home,
 		meta: {
@@ -17,7 +17,7 @@ const routes = [
 	{
 		path: "/about",
 		name: "about",
-		component: () => import("../views/checkOut.vue"),
+		component: () => import("../views/About.vue"),
 		meta: {
 			layout: "default",
 		},

@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
+    "sass": "^1.79.5",
+    "swiper": "^11.1.14",
     "vue": "^3.5.10",
     "vue-router": "^4.4.5"
   },
