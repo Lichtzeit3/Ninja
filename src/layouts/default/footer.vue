@@ -40,7 +40,7 @@
 	@import "@/sass/style.scss";
 
 	footer {
-		background-color: #000;
+		background: linear-gradient(0deg, #000, #181818);
 		height: 234px;
 		width: 100%;
 		.logo-info {

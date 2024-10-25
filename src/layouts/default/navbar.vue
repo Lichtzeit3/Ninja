@@ -1,38 +1,58 @@
 <template>
-	<div class="nav-banner bg-black">
-		<router-link to="/">
-			<img
-				src="@/assets/images/logo.svg"
-				alt="footerLogo"
-				class="nav-logo"
-				draggable="false"
-			/>
-		</router-link>
-		<div>
-			<span class="phone-number text-white">
-				<img
-					src="@/assets/images/header/phone.svg"
-					alt="Phone"
-					draggable="false"
-				/>
-				0988 <span class="mid-number">168</span> 588
-			</span>
-			<a href="#" target="_blank"
-				><img
-					src="@/assets/images/facebook.svg"
-					alt="facebook"
-					class="nav-media"
-					draggable="false"
-			/></a>
-			<a href="#" target="_blank"
-				><img
-					src="@/assets/images/Line.svg"
-					alt="Line"
-					class="nav-media"
-					draggable="false"
-			/></a>
+	<header
+		class="bg-black d-flex align-items-center justify-content-center custom-border"
+	>
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<div class="box mt-3 mb-3">
+						<router-link to="/">
+							<img
+								src="@/assets/images/logo.svg"
+								alt="Logo"
+								draggable="false"
+							/>
+						</router-link>
+					</div>
+				</div>
+
+				<!-- Empty space -->
+				<div class="col-4"></div>
+				<!-- Empty space -->
+
+				<div
+					class="col-4 d-flex align-items-center justify-content-center"
+				>
+					<img
+						src="@/assets/images/header/phone.svg"
+						alt="phone"
+						draggable="false"
+						class="me-3"
+					/>
+					<span class="text-white h3 mb-0 text-nowrap">
+						0988 <span class="text-gold">168</span> 588
+					</span>
+					<div class="d-flex ms-3">
+						<a href="#" target="_blank" class="me-2">
+							<img
+								src="@/assets/images/facebook.svg"
+								alt="facebook"
+								draggable="false"
+							/>
+						</a>
+						<a href="#" target="_blank">
+							<img
+								src="@/assets/images/line.svg"
+								alt="line"
+								draggable="false"
+							/>
+						</a>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
+	</header>
+
 	<nav class="navbar navbar-expand-lg navbar-dark bg-black">
 		<div class="container-fluid">
 			<button
@@ -117,39 +137,12 @@
 <style lang="scss" scoped>
 	@import "@/sass/style.scss";
 
-	.nav-banner {
+	.custom-border {
 		border-bottom: 4px solid $Red;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
+	}
 
-		.nav-logo {
-			width: 400px;
-			padding: 12px;
-			margin: 0 80px;
-		}
-
-		div {
-			margin-right: 80px;
-
-			.phone-number {
-				font-size: 2.5rem;
-				font-family: $FontFamily;
-
-				img {
-					width: 30px;
-				}
-
-				.mid-number {
-					color: $Gold;
-				}
-			}
-
-			.nav-media {
-				padding: 0 6px;
-				height: 30px;
-			}
-		}
+	.text-gold {
+		color: $Gold;
 	}
 
 	.nav-item {
