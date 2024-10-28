@@ -5,7 +5,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-4">
-					<div class="box mt-3 mb-3">
+					<div class="box py-2">
 						<router-link to="/">
 							<img
 								src="@/assets/images/logo.svg"
@@ -71,7 +71,7 @@
 				id="navbarNav"
 			>
 				<ul class="navbar-nav position-center">
-					<li class="nav-item">
+					<li class="nav-item p-0 px-3">
 						<router-link
 							to="/"
 							class="nav-link text-white d-flex flex-column text-start"
@@ -80,7 +80,7 @@
 							><span class="custom-text">Home</span></router-link
 						>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item p-0 px-3">
 						<router-link
 							to="/about"
 							class="nav-link text-white d-flex flex-column text-start"
@@ -89,7 +89,7 @@
 							><span class="custom-text">About</span></router-link
 						>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item p-0 px-3">
 						<router-link
 							to="/service"
 							class="nav-link text-white d-flex flex-column text-start"
@@ -100,7 +100,7 @@
 							></router-link
 						>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item p-0 px-3">
 						<router-link
 							to="/pricing"
 							class="nav-link text-white d-flex flex-column text-start"
@@ -111,7 +111,7 @@
 							></router-link
 						>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item p-0 px-3">
 						<router-link
 							to="/contact"
 							class="nav-link text-white d-flex flex-column text-start"
