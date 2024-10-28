@@ -76,7 +76,7 @@
 							to="/"
 							class="nav-link text-white d-flex flex-column text-start"
 							href="#"
-							><span class="chinese-text">首頁資訊</span
+							><span class=" fs-5 mb-1">首頁資訊</span
 							><span class="custom-text">Home</span></router-link
 						>
 					</li>
@@ -85,7 +85,7 @@
 							to="/about"
 							class="nav-link text-white d-flex flex-column text-start"
 							href="#"
-							><span class="chinese-text">關於我們</span
+							><span class=" fs-5 mb-1">關於我們</span
 							><span class="custom-text">About</span></router-link
 						>
 					</li>
@@ -94,7 +94,7 @@
 							to="/service"
 							class="nav-link text-white d-flex flex-column text-start"
 							href="#"
-							><span class="chinese-text">服務項目</span
+							><span class=" fs-5 mb-1">服務項目</span
 							><span class="custom-text"
 								>Service</span
 							></router-link
@@ -105,7 +105,7 @@
 							to="/pricing"
 							class="nav-link text-white d-flex flex-column text-start"
 							href="#"
-							><span class="chinese-text">收費標準</span
+							><span class="fs-5 mb-1">收費標準</span
 							><span class="custom-text"
 								>Pricing</span
 							></router-link
@@ -116,7 +116,7 @@
 							to="/contact"
 							class="nav-link text-white d-flex flex-column text-start"
 							href="#"
-							><span class="chinese-text">聯絡我們</span
+							><span class=" fs-5 mb-1">聯絡我們</span
 							><span class="custom-text"
 								>Contact</span
 							></router-link
@@ -146,16 +146,8 @@
 	}
 
 	.nav-item {
-		padding: 12px 20px;
-
 		.nav-link {
 			font-family: $FontFamily;
-			padding: 8px;
-
-			.chinese-text {
-				font-size: 20px;
-				margin-bottom: 4px;
-			}
 
 			.custom-text {
 				color: $Gold;

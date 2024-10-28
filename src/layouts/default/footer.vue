@@ -11,22 +11,33 @@
 				/>
 			</router-link>
 			<!-- Company Info -->
-			<ol>
-				<li>TEL: 0988 168 588</li>
-				<li>EMAIL: ninjatw@gmail.com</li>
-				<li>ADD: 台北市內湖區瑞光路7巷2樓之一</li>
+			<ol class="m-0 d-flex flex-column justify-content-evenly">
+				<li class="text-white">TEL: 0988 168 588</li>
+				<li class="text-white">EMAIL: ninjatw@gmail.com</li>
+				<li class="text-white">ADD: 台北市內湖區瑞光路7巷2樓之一</li>
 			</ol>
 			<!-- Media Link -->
-			<div class="footer-media">
-
+			<div class="d-flex flex-column justify-content-center gap-3">
 				<!-- Link need to set up -->
 
-				<a href="#" target="_blank"><img src="@/assets/images/facebook.svg" alt="facebook" draggable="false"/></a>
-				<a href="#" target="_blank"><img src="@/assets/images/Line.svg" alt="Line" draggable="false"/></a>
+				<a href="#" target="_blank"
+					><img
+						src="@/assets/images/facebook.svg"
+						alt="facebook"
+						draggable="false"
+				/></a>
+				<a href="#" target="_blank"
+					><img
+						src="@/assets/images/Line.svg"
+						alt="Line"
+						draggable="false"
+				/></a>
 			</div>
 		</div>
 		<!-- Copyright -->
-		<p class="copyright">&copy; 忍者運輸有限公司 All Rights Reserved.</p>
+		<p class="copyright text-center">
+			&copy; 忍者運輸有限公司 All Rights Reserved.
+		</p>
 	</footer>
 </template>
 
@@ -53,26 +64,15 @@
 		}
 		ol {
 			list-style-type: none;
-			display: flex;
-			flex-direction: column;
-			justify-content: space-evenly;
 			padding: 0 40px;
 		}
 		ol li {
-			color: #fff;
 			font-family: $FontFamily;
-			font-size: 1.25rem;
-		}
-		.footer-media {
-			display: flex;
-			flex-direction: column;
-			gap: 12px;
-			justify-content: center;
 		}
 		.copyright {
 			color: $Gold;
-			text-align: center;
 			margin-top: 20px;
+			font-size: 0.75rem;
 		}
 	}
 </style>
