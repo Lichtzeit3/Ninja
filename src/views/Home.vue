@@ -236,9 +236,11 @@
 				</div>
 			</div>
 		</main>
-        <div class="d-grid gap-2 col-2 mx-auto row">
-            <RouterLink to="/contact" type="button" class="btn btn-danger btn-lg shadow-sm"><h4 class="m-2 text-nowrap">聯絡我們</h4></RouterLink>
-        </div>
+		<div class="d-grid gap-2 col-2 mx-auto row">
+			<RouterLink to="/contact" class="btn btn-danger btn-lg shadow-sm"
+				><h4 class="m-2 text-nowrap">聯絡我們</h4></RouterLink
+			>
+		</div>
 	</div>
 </template>
 

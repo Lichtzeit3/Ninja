@@ -3,7 +3,7 @@
 		<header
 			class="about h1 text-white text-shadow d-flex justify-content-center align-items-center"
 		>
-			關於我們
+			<h1>關於我們</h1>
 		</header>
 		<img
 			src="../assets/images/Logo_black_ninja.png"
@@ -18,7 +18,6 @@
 		<div class="d-grid gap-2 col-2 mx-auto">
 			<RouterLink
 				to="/contact"
-				type="button"
 				class="btn btn-danger btn-lg"
 				><h4 class="m-2 text-nowrap">聯絡我們</h4></RouterLink
 			>
@@ -55,7 +54,7 @@
 
 		.box {
 			background-color: #fff;
-			width: 62.5rem;
+			width: 55rem;
 			border-radius: 20px;
 			padding: 80px;
 			margin: 80px auto;
