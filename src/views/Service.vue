@@ -6,13 +6,13 @@
 			<h1>服務項目</h1>
 		</header>
 		<main>
-			<section class="text-center mb-120">
+			<section class="text-center mb-120"  data-aos="fade-right">
 				<h4 class="mb-3">忍者運輸有限公司 - 您值得信賴的重機託運專家</h4>
 				<p class="fs-6">
 					忍者運輸有限公司專注於提供專業的重機機車託運服務，憑藉多年行業經驗，我們的專業團隊能夠提供全方位的託運解決方案，確保您的愛車安全無憂地送達目的地。
 				</p>
 			</section>
-			<section class="text-center mb-120">
+			<section class="text-center mb-120" data-aos="fade-left" data-aos-delay="300">
 				<h4 class="mb-3">為何選擇忍者運輸？</h4>
 				<div class="d-flex justify-content-evenly">
 					<div class="card border-0" style="width: 18rem">
@@ -62,7 +62,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="text-center mb-120">
+			<section class="text-center mb-120" data-aos="fade-right">
 				<h4>我們對您的承諾</h4>
 				<div>
 					<h5>
@@ -70,11 +70,11 @@
 					</h5>
 				</div>
 			</section>
-			<h6 class="fs-6 fw-normal text-center mb-80">
+			<h6 class="fs-6 fw-normal text-center mb-80" data-aos="fade-left">
 				準備好安心託運您的機車了嗎？聯繫忍者運輸有限公司，讓我們為您打理一切運輸事宜，讓您輕鬆上路！
 			</h6>
 		</main>
-		<div class="d-grid gap-2 col-2 mx-auto">
+		<div class="d-grid gap-2 col-2 mx-auto" data-aos="zoom-in">
 			<RouterLink
 				to="/contact"
 				class="btn btn-danger btn-lg m-2 text-nowrap"
@@ -85,7 +85,14 @@
 </template>
 
 <script>
-	export default {};
+	import AOS from "aos";
+	import "aos/dist/aos.css";
+
+	export default {
+		mounted() {
+			AOS.init();
+		},
+	};
 </script>
 
 <style lang="scss" scoped>

@@ -4,24 +4,26 @@
 	>
 		<div class="container">
 			<div class="row">
-				<div class="col-4">
+				<div class="col-12 col-md-6">
 					<div class="box py-2">
 						<router-link to="/">
-							<img
-								src="@/assets/images/logo.svg"
-								alt="Logo"
-								draggable="false"
-							/>
+							<picture>
+								<source
+									srcset="@/assets/images/logo.svg"
+									media="(min-width: 576px)"
+								/>
+								<img
+									src="@/assets/images/Logo_black_ninja.svg"
+									alt="Logo"
+									draggable="false"
+									class="logo"
+								/>
+							</picture>
 						</router-link>
 					</div>
 				</div>
-
-				<!-- Empty space -->
-				<div class="col-4"></div>
-				<!-- Empty space -->
-
 				<div
-					class="col-4 d-flex align-items-center justify-content-center"
+					class="phone_number col-12 col-md-6 d-flex align-items-center justify-content-end"
 				>
 					<img
 						src="@/assets/images/icon/phone.svg"
@@ -76,7 +78,7 @@
 							to="/"
 							class="nav-link text-white d-flex flex-column text-start"
 							href="#"
-							><span class=" fs-5 mb-1">首頁資訊</span
+							><span class="fs-5 mb-1">首頁資訊</span
 							><span class="custom-text">Home</span></router-link
 						>
 					</li>
@@ -85,7 +87,7 @@
 							to="/about"
 							class="nav-link text-white d-flex flex-column text-start"
 							href="#"
-							><span class=" fs-5 mb-1">關於我們</span
+							><span class="fs-5 mb-1">關於我們</span
 							><span class="custom-text">About</span></router-link
 						>
 					</li>
@@ -94,7 +96,7 @@
 							to="/service"
 							class="nav-link text-white d-flex flex-column text-start"
 							href="#"
-							><span class=" fs-5 mb-1">服務項目</span
+							><span class="fs-5 mb-1">服務項目</span
 							><span class="custom-text"
 								>Service</span
 							></router-link
@@ -116,7 +118,7 @@
 							to="/contact"
 							class="nav-link text-white d-flex flex-column text-start"
 							href="#"
-							><span class=" fs-5 mb-1">聯絡我們</span
+							><span class="fs-5 mb-1">聯絡我們</span
 							><span class="custom-text"
 								>Contact</span
 							></router-link
@@ -137,6 +139,32 @@
 <style lang="scss" scoped>
 	@import "@/sass/style.scss";
 
+	@mixin breakpoint($point) {
+		@media screen and (max-width: $point) {
+			@content;
+		}
+	}
+
+	.logo {
+		@include breakpoint(576px) {
+			width: 150px !important;
+			display: block;
+			margin: 0 auto;
+		}
+		@include breakpoint(992px) {
+			width: 300px;
+			display: block;
+			margin: 0 auto;
+		}
+	}
+
+	.phone_number {
+		@include breakpoint(768px) {
+			justify-content: center !important;
+			margin-bottom: 1rem;
+		}
+	}
+
 	.custom-border {
 		border-bottom: 4px solid $Red;
 	}
@@ -147,8 +175,6 @@
 
 	.nav-item {
 		.nav-link {
-			font-family: $FontFamily;
-
 			.custom-text {
 				color: $Gold;
 			}

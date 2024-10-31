@@ -13,7 +13,7 @@
 			<div class="container">
 				<table
 					class="table table-hover table-striped-columns table-responsive{-sm|-md|-lg|-xl|-xxl} text-center fs-5"
-				>
+					data-aos="zoom-out">
 					<caption class="fs-6 text-end">
 						新台幣 NTD
 					</caption>
@@ -256,7 +256,7 @@
 				</div>
 			</div>
 		</main>
-		<div class="d-grid gap-2 col-2 mx-auto">
+		<div class="d-grid gap-2 col-2 mx-auto" data-aos="zoom-in">
 			<RouterLink
 				to="/contact"
 				class="btn btn-danger btn-lg m-2 text-nowrap"
@@ -267,7 +267,14 @@
 </template>
 
 <script>
-	export default {};
+	import AOS from "aos";
+	import "aos/dist/aos.css";
+
+	export default {
+		mounted() {
+			AOS.init();
+		},
+	};
 </script>
 
 <style lang="scss" scoped>
@@ -305,12 +312,5 @@
 	.btn {
 		font-size: $h4-font-size;
 	}
-	// ol {
-	// 	list-style-type: decimal;
-	// 	margin-left: 20px;
-	// }
 
-	// li {
-	// 	margin-bottom: 8px;
-	// }
 </style>

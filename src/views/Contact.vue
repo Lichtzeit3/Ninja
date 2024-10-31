@@ -14,6 +14,8 @@
 		<main
 			class="card mx-auto rounded-4 shadow mb-80"
 			style="max-width: 55rem"
+			data-aos="zoom-out"
+			data-aos-duration="1000"
 		>
 			<div class="row g-0">
 				<div class="col-6">
@@ -85,7 +87,7 @@
 				</div>
 			</div>
 		</main>
-		<div class="d-grid gap-2 col-2 mx-auto">
+		<div class="d-grid gap-2 col-2 mx-auto" data-aos="zoom-in">
 			<RouterLink to="/" class="btn btn-danger btn-lg"
 				><h4 class="m-2 text-nowrap">返回首頁</h4></RouterLink
 			>
@@ -94,7 +96,14 @@
 </template>
 
 <script>
-	export default {};
+	import AOS from "aos";
+	import "aos/dist/aos.css";
+
+	export default {
+		mounted() {
+			AOS.init();
+		},
+	};
 </script>
 
 <style lang="scss" scoped>

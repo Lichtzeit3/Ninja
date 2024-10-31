@@ -166,7 +166,7 @@
 		</header>
 
 		<main class="container">
-			<div class="row justify-content-around">
+			<div class="row justify-content-around" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
 				<div class="col-4">
 					<div
 						class="box d-flex justify-content-center align-items-center"
@@ -189,7 +189,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="row justify-content-around">
+			<div class="row justify-content-around" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
 				<div class="col-4">
 					<div
 						class="box d-flex flex-column justify-content-center h-100"
@@ -212,7 +212,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="row justify-content-around">
+			<div class="row justify-content-around" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
 				<div class="col-4">
 					<div
 						class="box d-flex justify-content-center align-items-center"
@@ -236,7 +236,7 @@
 				</div>
 			</div>
 		</main>
-		<div class="d-grid gap-2 col-2 mx-auto row">
+		<div class="d-grid gap-2 col-2 mx-auto row" data-aos="zoom-in">
 			<RouterLink to="/contact" class="btn btn-danger btn-lg shadow-sm"
 				><h4 class="m-2 text-nowrap">聯絡我們</h4></RouterLink
 			>
@@ -245,7 +245,14 @@
 </template>
 
 <script>
-	export default {};
+	import AOS from "aos";
+	import "aos/dist/aos.css";
+
+	export default {
+		mounted() {
+			AOS.init();
+		},
+	};
 </script>
 
 <style lang="scss" scoped>
