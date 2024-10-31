@@ -24,7 +24,7 @@
 					class="col-4 d-flex align-items-center justify-content-center"
 				>
 					<img
-						src="@/assets/images/header/phone.svg"
+						src="@/assets/images/icon/phone.svg"
 						alt="phone"
 						draggable="false"
 						class="me-3"
@@ -35,14 +35,14 @@
 					<div class="d-flex ms-3">
 						<a href="#" target="_blank" class="me-2">
 							<img
-								src="@/assets/images/facebook.svg"
+								src="@/assets/images/icon/facebook.svg"
 								alt="facebook"
 								draggable="false"
 							/>
 						</a>
 						<a href="#" target="_blank">
 							<img
-								src="@/assets/images/line.svg"
+								src="@/assets/images/icon/line.svg"
 								alt="line"
 								draggable="false"
 							/>

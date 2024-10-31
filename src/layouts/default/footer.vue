@@ -22,13 +22,13 @@
 
 				<a href="#" target="_blank"
 					><img
-						src="@/assets/images/facebook.svg"
+						src="@/assets/images/icon/facebook.svg"
 						alt="facebook"
 						draggable="false"
 				/></a>
 				<a href="#" target="_blank"
 					><img
-						src="@/assets/images/Line.svg"
+						src="@/assets/images/icon/Line.svg"
 						alt="Line"
 						draggable="false"
 				/></a>

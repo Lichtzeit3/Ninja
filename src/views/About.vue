@@ -57,7 +57,7 @@
 			width: 55rem;
 			border-radius: 20px;
 			padding: 80px;
-			margin: 80px auto;
+			margin: 100px auto 80px;
 			position: relative;
 			z-index: 1;
 		}
