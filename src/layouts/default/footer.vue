@@ -1,6 +1,6 @@
 <template>
 	<footer>
-		<div class="logo-info">
+		<div class="logo-info d-flex justify-content-center pt-3">
 			<!-- Logo -->
 			<router-link to="/">
 				<img
@@ -12,12 +12,33 @@
 			</router-link>
 			<!-- Company Info -->
 			<ol class="m-0 d-flex flex-column justify-content-evenly">
-				<li class="text-white">TEL: 0988 168 588</li>
-				<li class="text-white">EMAIL: ninjatw@gmail.com</li>
-				<li class="text-white">ADD: 台北市內湖區瑞光路7巷2樓之一</li>
+				<li class="text-white">
+					<img
+						src="@/assets/images/icon/phone.svg"
+						alt="phone icon"
+						style="width: 1.25rem"
+					/>
+					0988 168 588
+				</li>
+				<li class="text-white">
+					<img
+						src="@/assets/images/icon/mail.svg"
+						alt="email icon"
+						style="width: 1.25rem"
+					/>
+					ninjatw@gmail.com
+				</li>
+				<li class="text-white">
+					<img
+						src="@/assets/images/icon/pin.svg"
+						alt="pin icon"
+						style="width: 1.25rem"
+					/>
+					台北市內湖區瑞光路7巷2樓之一
+				</li>
 			</ol>
 			<!-- Media Link -->
-			<div class="d-flex flex-column justify-content-center gap-3">
+			<div class="media d-flex flex-column justify-content-center gap-3">
 				<!-- Link need to set up -->
 
 				<a href="#" target="_blank"
@@ -50,25 +71,50 @@
 <style lang="scss" scoped>
 	@import "@/sass/style.scss";
 
+	@mixin breakpoint($point) {
+		@media screen and (max-width: $point) {
+			@content;
+		}
+	}
+
 	footer {
 		background: linear-gradient(0deg, #000, #181818);
-		height: 234px;
 		width: 100%;
 		.logo-info {
-			padding-top: 20px;
-			display: flex;
-			justify-content: center;
+			@include breakpoint(768px) {
+				flex-direction: column;
+				align-items: center;
+			}
+			.footer_logo {
+				@include breakpoint(768px) {
+					width: 200px;
+				}
+				@include breakpoint(992px) {
+					width: 300px;
+				}
+			}
+			ol {
+				list-style-type: none;
+				padding: 0 40px;
+				li {
+					font-family: $FontFamily;
+					@include breakpoint(768px) {
+						line-height: 250%;
+					}
+					img {
+						margin-right: 0.5rem;
+					}
+				}
+			}
+			.media {
+				@include breakpoint(768px) {
+					flex-direction: row !important;
+					margin-top: 1rem;
+					gap: 2rem !important;
+				}
+			}
 		}
-		.footer_logo {
-			width: 400px;
-		}
-		ol {
-			list-style-type: none;
-			padding: 0 40px;
-		}
-		ol li {
-			font-family: $FontFamily;
-		}
+
 		.copyright {
 			color: $Gold;
 			margin-top: 20px;

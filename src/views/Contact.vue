@@ -109,6 +109,12 @@
 <style lang="scss" scoped>
 	@import "@/sass/style.scss";
 
+	@mixin breakpoint($point) {
+		@media screen and (max-width: $point) {
+			@content;
+		}
+	}
+
 	.wrapper {
 		background-color: rgba(0, 0, 0, 0.1);
 		width: 100%;

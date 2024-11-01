@@ -98,6 +98,12 @@
 <style lang="scss" scoped>
 	@import "@/sass/style.scss";
 
+	@mixin breakpoint($point) {
+		@media screen and (max-width: $point) {
+			@content;
+		}
+	}
+	
 	.wrapper {
 		width: 100%;
 		padding-bottom: 80px;

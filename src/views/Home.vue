@@ -258,6 +258,12 @@
 <style lang="scss" scoped>
 	@import "@/sass/style.scss";
 
+	@mixin breakpoint($point) {
+		@media screen and (max-width: $point) {
+			@content;
+		}
+	}
+	
 	header,
 	.row {
 		margin-bottom: 80px;
