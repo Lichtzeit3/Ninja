@@ -13,7 +13,8 @@
 			<div class="container">
 				<table
 					class="table table-hover table-striped-columns table-responsive{-sm|-md|-lg|-xl|-xxl} text-center fs-5"
-					data-aos="zoom-out">
+					data-aos="zoom-out"
+				>
 					<caption class="fs-6 text-end">
 						新台幣 NTD
 					</caption>
@@ -249,18 +250,18 @@
 				<div class="d-flex">
 					<h6 class="lh-lg">說明：</h6>
 					<ol class="lh-lg fs-5">
-						<li class="fw-bold">601 c.c 以上重型機車運費依上述運費再加300元。</li>
+						<li class="fw-bold">
+							601 c.c 以上重型機車運費依上述運費再加300元。
+						</li>
 						<li>一次託運2輛以上重機時請來電公司法談優惠辦法。</li>
 						<li>屏東縣不包括恆春及墾丁地區。</li>
 					</ol>
 				</div>
 			</div>
 		</main>
-		<div class="d-grid gap-2 col-2 mx-auto" data-aos="zoom-in">
-			<RouterLink
-				to="/contact"
-				class="btn btn-danger btn-lg m-2 text-nowrap"
-				>聯絡我們</RouterLink
+		<div class="text-center">
+			<RouterLink to="/contact" class="btn btn-danger btn-lg"
+				><h4 class="m-2 text-nowrap">聯絡我們</h4></RouterLink
 			>
 		</div>
 	</div>
@@ -295,7 +296,7 @@
 			height: 160px;
 			width: 100%;
 		}
-		ol{
+		ol {
 			list-style-type: decimal;
 		}
 	}
@@ -318,5 +319,4 @@
 	.btn {
 		font-size: $h4-font-size;
 	}
-
 </style>

@@ -15,7 +15,7 @@
 				忍者運輸有限公司專注於提供專業的重機機車託運服務。我們深知每一位機車愛好者對愛車的重視，因此致力於為客戶提供高品質、安全可靠的機車託運解決方案。我們的團隊擁有多年機車運輸經驗，專業處理各類型重機的運輸需求，確保每一台機車都能在最佳狀態下安全送達。<br /><br />我們以「專業、安全、服務至上」為核心理念，針對重機託運進行全方位的方案設計，從裝車到運送每一個環節都精益求精。我們的服務不僅涵蓋個人機車的託運需求，還能處理多輛車的大規模配送，靈活滿足客戶的多元需求。
 			</p>
 		</main>
-		<div class="d-grid gap-2 col-2 mx-auto" data-aos="zoom-in">
+		<div class="text-center">
 			<RouterLink to="/contact" class="btn btn-danger btn-lg"
 				><h4 class="m-2 text-nowrap">聯絡我們</h4></RouterLink
 			>
@@ -42,12 +42,12 @@
 			@content;
 		}
 	}
-	
+
 	.wrapper {
 		background-color: rgba(0, 0, 0, 0.1);
 		width: 100%;
-		padding-bottom: 80px;
 		position: relative;
+		padding-bottom: 80px;
 
 		.about {
 			background-color: $Red;

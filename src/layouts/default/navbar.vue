@@ -14,9 +14,9 @@
 								/>
 								<img
 									src="@/assets/images/Logo_black_ninja.svg"
+									class="logo"
 									alt="Logo"
 									draggable="false"
-									class="logo"
 								/>
 							</picture>
 						</router-link>
@@ -55,7 +55,7 @@
 		</div>
 	</header>
 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
 		<div class="container-fluid">
 			<button
 				class="navbar-toggler ms-auto border-0"
@@ -142,6 +142,12 @@
 	@mixin breakpoint($point) {
 		@media screen and (max-width: $point) {
 			@content;
+		}
+	}
+
+	header{
+		@include breakpoint(576px) {
+			height: 28vh;
 		}
 	}
 

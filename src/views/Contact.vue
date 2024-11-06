@@ -87,7 +87,7 @@
 				</div>
 			</div>
 		</main>
-		<div class="d-grid gap-2 col-2 mx-auto" data-aos="zoom-in">
+		<div class="text-center mx-auto">
 			<RouterLink to="/" class="btn btn-danger btn-lg"
 				><h4 class="m-2 text-nowrap">返回首頁</h4></RouterLink
 			>

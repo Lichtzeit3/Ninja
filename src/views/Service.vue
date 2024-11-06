@@ -74,11 +74,9 @@
 				準備好安心託運您的機車了嗎？聯繫忍者運輸有限公司，讓我們為您打理一切運輸事宜，讓您輕鬆上路！
 			</h6>
 		</main>
-		<div class="d-grid gap-2 col-2 mx-auto" data-aos="zoom-in">
-			<RouterLink
-				to="/contact"
-				class="btn btn-danger btn-lg m-2 text-nowrap"
-				>聯絡我們</RouterLink
+		<div class="text-center">
+			<RouterLink to="/contact" class="btn btn-danger btn-lg"
+				><h4 class="m-2 text-nowrap">聯絡我們</h4></RouterLink
 			>
 		</div>
 	</div>

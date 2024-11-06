@@ -1,14 +1,14 @@
 <template>
 	<div class="wrapper">
 		<header
-			id="carouselExampleAutoplaying"
-			class="carousel slide"
+			id="carouselAutoplaying"
+			class="carousel slide mb-80"
 			data-bs-ride="carousel"
 		>
 			<div class="carousel-indicators">
 				<button
 					type="button"
-					data-bs-target="#carouselExampleAutoplaying"
+					data-bs-target="#carouselAutoplaying"
 					data-bs-slide-to="0"
 					class="active"
 					aria-current="true"
@@ -16,19 +16,19 @@
 				></button>
 				<button
 					type="button"
-					data-bs-target="#carouselExampleAutoplaying"
+					data-bs-target="#carouselAutoplaying"
 					data-bs-slide-to="1"
 					aria-label="Slide 2"
 				></button>
 				<button
 					type="button"
-					data-bs-target="#carouselExampleAutoplaying"
+					data-bs-target="#carouselAutoplaying"
 					data-bs-slide-to="2"
 					aria-label="Slide 3"
 				></button>
 				<button
 					type="button"
-					data-bs-target="#carouselExampleAutoplaying"
+					data-bs-target="#carouselAutoplaying"
 					data-bs-slide-to="3"
 					aria-label="Slide 4"
 				></button>
@@ -38,15 +38,15 @@
 					<picture>
 						<source
 							srcset="../assets/images/home/motorbikes_XL.jpg"
-							media="(min-width: 1440px)"
+							media="(min-width: 1441px)"
 						/>
 						<source
 							srcset="../assets/images/home/motorbikes_L.jpg"
-							media="(min-width: 768px)"
+							media="(min-width: 769px)"
 						/>
 						<source
 							srcset="../assets/images/home/motorbikes_M.jpg"
-							media="(min-width: 375px)"
+							media="(min-width: 576px)"
 						/>
 						<img
 							src="../assets/images/home/motorbikes_S.jpg"
@@ -57,7 +57,7 @@
 					<div
 						class="carousel-caption d-flex justify-content-center align-items-center h-100"
 					>
-						<h1 class="h1 fw-bold text-shadow">專業重機託運服務</h1>
+						<h1 class="h1 fw-bold text-shadow text-nowrap">專業重機託運服務</h1>
 					</div>
 				</div>
 				<div class="carousel-item">
@@ -72,7 +72,7 @@
 						/>
 						<source
 							srcset="../assets/images/home/motorbikes2_M.jpg"
-							media="(min-width: 375px)"
+							media="(min-width: 576px)"
 						/>
 						<img
 							src="../assets/images/home/motorbikes2_S.jpg"
@@ -83,7 +83,7 @@
 					<div
 						class="carousel-caption d-flex justify-content-center align-items-center h-100"
 					>
-						<h1 class="h1 fw-bold text-shadow">專業重機託運服務</h1>
+						<h1 class="h1 fw-bold text-shadow text-nowrap">專業重機託運服務</h1>
 					</div>
 				</div>
 				<div class="carousel-item">
@@ -98,7 +98,7 @@
 						/>
 						<source
 							srcset="../assets/images/home/motorbikes3_M.jpg"
-							media="(min-width: 375px)"
+							media="(min-width: 576px)"
 						/>
 						<img
 							src="../assets/images/home/motorbikes3_S.jpg"
@@ -109,7 +109,7 @@
 					<div
 						class="carousel-caption d-flex justify-content-center align-items-center h-100"
 					>
-						<h1 class="h1 fw-bold text-shadow">專業重機託運服務</h1>
+						<h1 class="h1 fw-bold text-shadow text-nowrap">專業重機託運服務</h1>
 					</div>
 				</div>
 				<div class="carousel-item">
@@ -124,7 +124,7 @@
 						/>
 						<source
 							srcset="../assets/images/home/motorbikes4_M.jpg"
-							media="(min-width: 375px)"
+							media="(min-width: 576px)"
 						/>
 						<img
 							src="../assets/images/home/motorbikes4_S.jpg"
@@ -135,14 +135,14 @@
 					<div
 						class="carousel-caption d-flex justify-content-center align-items-center h-100"
 					>
-						<h1 class="h1 fw-bold text-shadow">專業重機託運服務</h1>
+						<h1 class="h1 fw-bold text-shadow text-nowrap">專業重機託運服務</h1>
 					</div>
 				</div>
 			</div>
 			<button
 				class="carousel-control-prev"
 				type="button"
-				data-bs-target="#carouselExampleAutoplaying"
+				data-bs-target="#carouselAutoplaying"
 				data-bs-slide="prev"
 			>
 				<span
@@ -154,7 +154,7 @@
 			<button
 				class="carousel-control-next"
 				type="button"
-				data-bs-target="#carouselExampleAutoplaying"
+				data-bs-target="#carouselAutoplaying"
 				data-bs-slide="next"
 			>
 				<span
@@ -166,8 +166,13 @@
 		</header>
 
 		<main class="container">
-			<div class="row justify-content-around" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-				<div class="col-4">
+			<div
+				class="row justify-content-evenly mb-100"
+				data-aos="fade-up"
+				data-aos-anchor-placement="center-bottom"
+				data-aos-duration="500"
+			>
+				<div class="d-flex col-10 col-sm-6 col-lg-4">
 					<div
 						class="box d-flex justify-content-center align-items-center"
 					>
@@ -178,7 +183,7 @@
 						/>
 					</div>
 				</div>
-				<div class="col-4">
+				<div class="col-10 col-sm-6 col-lg-4">
 					<div
 						class="box d-flex flex-column justify-content-center h-100"
 					>
@@ -189,8 +194,13 @@
 					</div>
 				</div>
 			</div>
-			<div class="row justify-content-around" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-				<div class="col-4">
+			<div
+				class="row justify-content-evenly mb-100 protection"
+				data-aos="fade-up"
+				data-aos-anchor-placement="center-bottom"
+				data-aos-duration="500"
+			>
+				<div class="col-10 col-sm-6 col-lg-4">
 					<div
 						class="box d-flex flex-column justify-content-center h-100"
 					>
@@ -200,7 +210,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-4">
+				<div class="d-flex col-10 col-sm-6 col-lg-4">
 					<div
 						class="box d-flex justify-content-center align-items-center"
 					>
@@ -212,8 +222,13 @@
 					</div>
 				</div>
 			</div>
-			<div class="row justify-content-around" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-				<div class="col-4">
+			<div
+				class="row justify-content-evenly mb-80"
+				data-aos="fade-up"
+				data-aos-anchor-placement="center-bottom"
+				data-aos-duration="500"
+			>
+				<div class="d-flex col-10 col-sm-6 col-lg-4">
 					<div
 						class="box d-flex justify-content-center align-items-center"
 					>
@@ -224,7 +239,7 @@
 						/>
 					</div>
 				</div>
-				<div class="col-4">
+				<div class="col-10 col-sm-6 col-lg-4">
 					<div
 						class="box d-flex flex-column justify-content-center h-100"
 					>
@@ -236,8 +251,8 @@
 				</div>
 			</div>
 		</main>
-		<div class="d-grid gap-2 col-2 mx-auto row" data-aos="zoom-in">
-			<RouterLink to="/contact" class="btn btn-danger btn-lg shadow-sm"
+		<div class="text-center mb-80">
+			<RouterLink to="/contact" class="btn btn-danger btn-lg"
 				><h4 class="m-2 text-nowrap">聯絡我們</h4></RouterLink
 			>
 		</div>
@@ -251,6 +266,33 @@
 	export default {
 		mounted() {
 			AOS.init();
+			this.$nextTick(() => {
+				this.initCarousel();
+			});
+		},
+		methods: {
+			initCarousel() {
+				const carousel = document.querySelector(
+					"#carouselAutoplaying"
+				);
+				if (carousel) {
+					new bootstrap.Carousel(carousel, {
+						interval: 5000,
+						ride: "carousel",
+					});
+				}
+			},
+		},
+		activated() {
+			this.initCarousel();
+		},
+		deactivated() {
+			const carousel = bootstrap.Carousel.getInstance(
+				document.querySelector("#carouselAutoplaying")
+			);
+			if (carousel) {
+				carousel.pause();
+			}
 		},
 	};
 </script>
@@ -263,9 +305,33 @@
 			@content;
 		}
 	}
-	
-	header,
-	.row {
+
+	.box {
+		@include breakpoint(576px) {
+			margin-bottom: 40px;
+		}
+		.img {
+			@include breakpoint(768px) {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100%;
+			}
+		}
+	}
+
+	.protection {
+		@include breakpoint(576px) {
+			flex-direction: column-reverse;
+			align-items: center;
+		}
+	}
+
+	.mb-100 {
+		margin-bottom: 100px;
+	}
+
+	.mb-80 {
 		margin-bottom: 80px;
 	}
 
