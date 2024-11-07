@@ -1,19 +1,21 @@
 <template>
 	<div class="wrapper">
 		<header
-			class="pricing h1 text-white text-shadow d-flex justify-content-center align-items-center mb-100"
+			class="header h1 text-white text-shadow d-flex justify-content-center align-items-center mb-100"
 		>
 			<h1>收費標準</h1>
 		</header>
 
 		<main class="mb-80">
-			<h2 class="text-center mb-40">
+			<h2 class="text-center mb-40 mx-4">
 				一般重型機車 （600 c.c (含) 以下）
 			</h2>
-			<div class="container">
+			<div class="container table-responsive">
 				<table
-					class="table table-hover table-striped-columns table-responsive{-sm|-md|-lg|-xl|-xxl} text-center fs-5"
-					data-aos="zoom-out"
+					class="table table-sm table-hover table-striped-columns text-center fs-5"
+					data-aos="zoom-in"
+					data-aos-anchor-placement="top-bottom"
+					data-aos-duration="1000"
 				>
 					<caption class="fs-6 text-end">
 						新台幣 NTD
@@ -247,16 +249,16 @@
 						</tr>
 					</tbody>
 				</table>
-				<div class="d-flex">
-					<h6 class="lh-lg">說明：</h6>
-					<ol class="lh-lg fs-5">
-						<li class="fw-bold">
-							601 c.c 以上重型機車運費依上述運費再加300元。
-						</li>
-						<li>一次託運2輛以上重機時請來電公司法談優惠辦法。</li>
-						<li>屏東縣不包括恆春及墾丁地區。</li>
-					</ol>
-				</div>
+			</div>
+			<div class="d-flex explain">
+				<h6 class="lh-lg text-nowrap">說明：</h6>
+				<ol class="lh-lg fs-5 m-0">
+					<li class="fw-bold">
+						601 c.c 以上重型機車運費依上述運費再加300元。
+					</li>
+					<li>一次託運2輛以上重機時請來電公司法談優惠辦法。</li>
+					<li>屏東縣不包括恆春及墾丁地區。</li>
+				</ol>
 			</div>
 		</main>
 		<div class="text-center">
@@ -291,13 +293,26 @@
 		width: 100%;
 		padding-bottom: 80px;
 
-		.pricing {
+		.header {
 			background-color: $Red;
 			height: 160px;
 			width: 100%;
 		}
+		th{
+			text-wrap: nowrap;
+		}
+		td{
+			font-size: $font-size-base;
+		}
 		ol {
 			list-style-type: decimal;
+		}
+
+		.explain {
+			margin-left: 12vw;
+			@include breakpoint(992px) {
+				margin: 0 2rem;
+			}
 		}
 	}
 

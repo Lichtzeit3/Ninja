@@ -6,7 +6,7 @@
 			<div class="row">
 				<div class="col-12 col-md-6">
 					<div class="py-2">
-						<router-link to="/">
+						<router-link to="/" @click="closeNavbar">
 							<picture>
 								<source
 									srcset="@/assets/images/logo.svg"
@@ -77,7 +77,7 @@
 						<router-link
 							to="/"
 							class="nav-link text-white d-flex flex-column text-start"
-							href="#"
+							@click="closeNavbar"
 							><span class="fs-5 mb-1">首頁資訊</span
 							><span class="custom-text">Home</span></router-link
 						>
@@ -86,7 +86,7 @@
 						<router-link
 							to="/about"
 							class="nav-link text-white d-flex flex-column text-start"
-							href="#"
+							@click="closeNavbar"
 							><span class="fs-5 mb-1">關於我們</span
 							><span class="custom-text">About</span></router-link
 						>
@@ -95,7 +95,7 @@
 						<router-link
 							to="/service"
 							class="nav-link text-white d-flex flex-column text-start"
-							href="#"
+							@click="closeNavbar"
 							><span class="fs-5 mb-1">服務項目</span
 							><span class="custom-text"
 								>Service</span
@@ -106,7 +106,7 @@
 						<router-link
 							to="/pricing"
 							class="nav-link text-white d-flex flex-column text-start"
-							href="#"
+							@click="closeNavbar"
 							><span class="fs-5 mb-1">收費標準</span
 							><span class="custom-text"
 								>Pricing</span
@@ -117,7 +117,7 @@
 						<router-link
 							to="/contact"
 							class="nav-link text-white d-flex flex-column text-start"
-							href="#"
+							@click="closeNavbar"
 							><span class="fs-5 mb-1">聯絡我們</span
 							><span class="custom-text"
 								>Contact</span
@@ -133,6 +133,15 @@
 <script>
 	export default {
 		name: "DefaultNavbar",
+		methods: {
+			closeNavbar() {
+				const navbar = document.getElementById("navbarNav");
+				const bsCollapse = bootstrap.Collapse.getInstance(navbar);
+				if (bsCollapse) {
+					bsCollapse.hide();
+				}
+			},
+		},
 	};
 </script>
 
@@ -145,10 +154,8 @@
 		}
 	}
 
-	header{
-		@include breakpoint(576px) {
-			height: 28vh;
-		}
+	.navbar{
+		margin-top: -1px;
 	}
 
 	.logo {
@@ -172,7 +179,7 @@
 	}
 
 	.custom-border {
-		border-bottom: 4px solid $Red;
+		border-bottom: 5px solid $Red;
 	}
 
 	.text-gold {

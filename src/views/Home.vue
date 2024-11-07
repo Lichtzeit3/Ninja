@@ -57,7 +57,9 @@
 					<div
 						class="carousel-caption d-flex justify-content-center align-items-center h-100"
 					>
-						<h1 class="h1 fw-bold text-shadow text-nowrap">專業重機託運服務</h1>
+						<h1 class="h1 fw-bold text-shadow text-nowrap">
+							專業重機託運服務
+						</h1>
 					</div>
 				</div>
 				<div class="carousel-item">
@@ -83,7 +85,9 @@
 					<div
 						class="carousel-caption d-flex justify-content-center align-items-center h-100"
 					>
-						<h1 class="h1 fw-bold text-shadow text-nowrap">專業重機託運服務</h1>
+						<h1 class="h1 fw-bold text-shadow text-nowrap">
+							專業重機託運服務
+						</h1>
 					</div>
 				</div>
 				<div class="carousel-item">
@@ -109,7 +113,9 @@
 					<div
 						class="carousel-caption d-flex justify-content-center align-items-center h-100"
 					>
-						<h1 class="h1 fw-bold text-shadow text-nowrap">專業重機託運服務</h1>
+						<h1 class="h1 fw-bold text-shadow text-nowrap">
+							專業重機託運服務
+						</h1>
 					</div>
 				</div>
 				<div class="carousel-item">
@@ -135,7 +141,9 @@
 					<div
 						class="carousel-caption d-flex justify-content-center align-items-center h-100"
 					>
-						<h1 class="h1 fw-bold text-shadow text-nowrap">專業重機託運服務</h1>
+						<h1 class="h1 fw-bold text-shadow text-nowrap">
+							專業重機託運服務
+						</h1>
 					</div>
 				</div>
 			</div>
@@ -164,12 +172,18 @@
 				<span class="visually-hidden">Next</span>
 			</button>
 		</header>
-
+		<section class="mobile-header">
+			<h1
+				class="header h1 text-white text-shadow d-flex justify-content-center align-items-center"
+			>
+				專業重機託運服務
+			</h1>
+		</section>
 		<main class="container">
 			<div
 				class="row justify-content-evenly mb-100"
 				data-aos="fade-up"
-				data-aos-anchor-placement="center-bottom"
+				data-aos-anchor-placement="top-bottom"
 				data-aos-duration="500"
 			>
 				<div class="d-flex col-10 col-sm-6 col-lg-4">
@@ -197,7 +211,7 @@
 			<div
 				class="row justify-content-evenly mb-100 protection"
 				data-aos="fade-up"
-				data-aos-anchor-placement="center-bottom"
+				data-aos-anchor-placement="top-bottom"
 				data-aos-duration="500"
 			>
 				<div class="col-10 col-sm-6 col-lg-4">
@@ -225,7 +239,7 @@
 			<div
 				class="row justify-content-evenly mb-80"
 				data-aos="fade-up"
-				data-aos-anchor-placement="center-bottom"
+				data-aos-anchor-placement="top-bottom"
 				data-aos-duration="500"
 			>
 				<div class="d-flex col-10 col-sm-6 col-lg-4">
@@ -272,9 +286,7 @@
 		},
 		methods: {
 			initCarousel() {
-				const carousel = document.querySelector(
-					"#carouselAutoplaying"
-				);
+				const carousel = document.querySelector("#carouselAutoplaying");
 				if (carousel) {
 					new bootstrap.Carousel(carousel, {
 						interval: 5000,
@@ -304,6 +316,26 @@
 		@media screen and (max-width: $point) {
 			@content;
 		}
+	}
+
+	header {
+		@include breakpoint(576px) {
+			display: none;
+		}
+	}
+
+	.mobile-header{
+		display: none;
+		@include breakpoint(576px) {
+			display: block;
+		}
+	}
+
+	.header {
+		background-color: $Red;
+		height: 160px;
+		width: 100%;
+		margin-bottom: 80px;
 	}
 
 	.box {

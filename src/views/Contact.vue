@@ -1,7 +1,7 @@
 <template>
 	<div class="wrapper">
 		<header
-			class="about h1 text-white text-shadow d-flex justify-content-center align-items-center mb-100"
+			class="header h1 text-white text-shadow d-flex justify-content-center align-items-center mb-100"
 		>
 			<h1>聯絡我們</h1>
 		</header>
@@ -12,55 +12,55 @@
 			class="bg-logo"
 		/>
 		<main
-			class="card mx-auto rounded-4 shadow mb-80"
-			style="max-width: 55rem"
+			class="card mx-auto rounded-4 shadow mb-80 h-100"
 			data-aos="zoom-out"
 			data-aos-duration="1000"
+			data-aos-anchor-placement="top-bottom"
 		>
 			<div class="row g-0">
-				<div class="col-6">
+				<div class="col-6 contact-img">
 					<img
 						src="../assets/images/contact/contact.jpg"
-						class="img-fluid rounded-start"
+						class="img-fluid rounded-4"
 						alt="..."
 						draggable="false"
 					/>
 				</div>
-				<div class="col-6">
-					<div class="card-body">
-						<h3 class="card-title text-center mb-5">
-							忍者運輸有限公司
-						</h3>
+				<div class="col-md-12 col-lg-6">
+					<div
+						class="card-body d-flex flex-column h-100 align-items-center justify-content-evenly"
+					>
+						<h3 class="card-title text-center">忍者運輸有限公司</h3>
 						<ul
-							class="d-flex flex-column align-items-start justify-content-around ps-3"
+							class="d-flex flex-column align-items-start justify-content-evenly h-100 ps-3"
 						>
-							<li class="mb-5">
+							<li class="">
 								<img
 									src="../assets/images/icon/phone.svg"
 									alt="phone_icon"
-									class="align-middle"
+									class="align-middle icon"
 									draggable="false"
-								/><span class="fs-5 align-middle ps-3"
+								/><span class="fs-5 align-middle ps-3 info"
 									>0988 168 588</span
 								>
 							</li>
-							<li class="mb-5">
+							<li class="">
 								<img
 									src="../assets/images/icon/mail.svg"
 									alt="email_icon"
-									class="align-middle"
+									class="align-middle icon"
 									draggable="false"
-								/><span class="fs-5 align-middle ps-3"
+								/><span class="fs-5 align-middle ps-3 info"
 									>ninjatw@gmail.com</span
 								>
 							</li>
-							<li class="mb-3">
+							<li class="">
 								<img
 									src="../assets/images/icon/pin.svg"
 									alt="address_icon"
-									class="align-middle"
+									class="align-middle icon"
 									draggable="false"
-								/><span class="fs-5 align-middle ps-3"
+								/><span class="fs-5 align-middle ps-3 info"
 									>台北市內湖區瑞光路7巷1號2樓之一</span
 								>
 							</li>
@@ -72,14 +72,14 @@
 								><img
 									src="../assets/images/icon/fb-dark.svg"
 									alt="facebook_icon"
-									class="mx-3"
+									class="mx-3 img-fluid"
 									draggable="false"
 							/></a>
 							<a href="#" target="_blank"
 								><img
 									src="../assets/images/icon/line-dark.svg"
 									alt="line_icon"
-									class="mx-3"
+									class="mx-3 img-fluid"
 									draggable="false"
 							/></a>
 						</span>
@@ -121,7 +121,7 @@
 		padding-bottom: 80px;
 		position: relative;
 
-		.about {
+		.header {
 			background-color: $Red;
 			height: 160px;
 			width: 100%;
@@ -131,18 +131,52 @@
 			position: absolute;
 			bottom: 0;
 			right: 0;
-			width: 38.3rem;
+			z-index: -1;
 			opacity: 0.1;
+			width: 38.3rem;
+			@include breakpoint(576px) {
+				opacity: 0.04;
+				bottom: 20%;
+			}
 		}
 
-		.box {
-			background-color: #fff;
-			width: 55rem;
-			border-radius: 20px;
-			padding: 80px;
-			margin: 80px auto;
-			position: relative;
-			z-index: 1;
+		.card {
+			max-width: 55rem;
+			@include breakpoint(992px) {
+				max-width: 35rem;
+			}
+			@include breakpoint(576px) {
+					background: none !important;
+					box-shadow: none !important;
+					border: none !important;
+				}
+			.contact-img {
+				@include breakpoint(992px) {
+					display: none;
+				}
+			}
+			.card-body {
+				@include breakpoint(992px) {
+					height: 25rem !important;
+				}
+				ul{
+					@include breakpoint(576px) {
+						padding: 0 !important;
+					}
+				}
+			}
+		}
+	}
+
+	.icon{
+		@include breakpoint(576px) {
+			width: 30px;
+		}
+	}
+
+	.info{
+		@include breakpoint(576px) {
+			font-size: 1rem !important;
 		}
 	}
 

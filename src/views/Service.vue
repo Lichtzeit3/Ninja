@@ -1,21 +1,28 @@
 <template>
 	<div class="wrapper">
 		<header
-			class="service text-white text-shadow d-flex justify-content-center align-items-center mb-100"
+			class="header text-white text-shadow d-flex justify-content-center align-items-center mb-100"
 		>
 			<h1>服務項目</h1>
 		</header>
 		<main>
-			<section class="text-center mb-120"  data-aos="fade-right">
-				<h4 class="mb-3">忍者運輸有限公司 - 您值得信賴的重機託運專家</h4>
-				<p class="fs-6">
+			<section class="text-center mb-120 px-4" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
+				<h4 class="mb-4 lh-base">
+					忍者運輸有限公司 - 您值得信賴的重機託運專家
+				</h4>
+				<p class="fs-6 lh-base">
 					忍者運輸有限公司專注於提供專業的重機機車託運服務，憑藉多年行業經驗，我們的專業團隊能夠提供全方位的託運解決方案，確保您的愛車安全無憂地送達目的地。
 				</p>
 			</section>
-			<section class="text-center mb-120" data-aos="fade-left" data-aos-delay="300">
-				<h4 class="mb-3">為何選擇忍者運輸？</h4>
-				<div class="d-flex justify-content-evenly">
-					<div class="card border-0" style="width: 18rem">
+			<section
+				class="text-center mb-120"
+				data-aos="fade-left"
+				data-aos-delay="300"
+				data-aos-anchor-placement="top-bottom"
+			>
+				<h4 class="mb-4">為何選擇忍者通運？</h4>
+				<div class="d-flex justify-content-evenly cards">
+					<div class="card border-0 mobile-margin" style="width: 18rem" data-aos="fade-up" data-aos-delay="300">
 						<div class="circle">
 							<img
 								src="../assets/images/service/professional.png"
@@ -30,7 +37,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="card border-0" style="width: 18rem">
+					<div class="card border-0 mobile-margin" style="width: 18rem"  data-aos="fade-up" data-aos-delay="300">
 						<div class="circle">
 							<img
 								src="../assets/images/service/safety.png"
@@ -45,7 +52,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="card border-0" style="width: 18rem">
+					<div class="card border-0" style="width: 18rem"  data-aos="fade-up" data-aos-delay="300">
 						<div class="circle">
 							<img
 								src="../assets/images/service/service.png"
@@ -65,12 +72,14 @@
 			<section class="text-center mb-120" data-aos="fade-right">
 				<h4>我們對您的承諾</h4>
 				<div>
-					<h5>
-						<span class="quote"> &#x301D </span> 忍者運輸堅持「專業、安全、服務至上」的經營理念，不斷提升服務品質，致力於成為您信賴的重機運輸夥伴，超越您的期望。 <span class="quote"> &#x301E </span>
+					<span class="quote left-quote">&#x301D</span><br>
+					<h5 class="px-5 my-3">
+						忍者通運堅持「專業、安全、服務至上」的經營理念，不斷提升服務品質，致力於成為您信賴的重機運輸夥伴，超越您的期望。
 					</h5>
+					<span class="quote right-quote">&#x301E</span>
 				</div>
 			</section>
-			<h6 class="fs-6 fw-normal text-center mb-80" data-aos="fade-left">
+			<h6 class="fs-6 fw-normal text-center mb-80 lh-base px-4" data-aos="fade-left">
 				準備好安心託運您的機車了嗎？聯繫忍者運輸有限公司，讓我們為您打理一切運輸事宜，讓您輕鬆上路！
 			</h6>
 		</main>
@@ -101,19 +110,34 @@
 			@content;
 		}
 	}
-	
+
 	.wrapper {
 		width: 100%;
 		padding-bottom: 80px;
 
-		.service {
+		.header {
 			background-color: $Red;
 			height: 160px;
 			width: 100%;
 		}
 
-		.quote{
+		.cards{
+			@include breakpoint(576px) {
+				flex-direction: column;
+				align-items: center;
+			}
+		}
+
+		.quote {
 			font-size: 3.5rem;
+		}
+
+		.left-quote {
+			float: left;
+		}
+
+		.right-quote {
+			float: right;
 		}
 	}
 
@@ -128,6 +152,12 @@
 		margin: 0 auto;
 	}
 
+	.mobile-margin{
+		@include breakpoint(576px) {
+			margin-bottom: $spacer * 3;
+		}
+	}
+
 	.mb-100 {
 		margin-bottom: 100px;
 	}
@@ -139,7 +169,7 @@
 	.mb-80 {
 		margin-bottom: 80px;
 	}
-	.btn{
+	.btn {
 		font-size: $h4-font-size;
 	}
 </style>
