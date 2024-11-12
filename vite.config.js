@@ -6,7 +6,7 @@ import path from "path"; // 載入 path
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	base: "/Ninja/", // 設定相對路徑
+	base: "/", // 設定相對路徑
 	plugins: [vue()],
 	resolve: {
 		alias: {
