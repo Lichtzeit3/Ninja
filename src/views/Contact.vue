@@ -30,7 +30,7 @@
 					<div
 						class="card-body d-flex flex-column h-100 align-items-center justify-content-evenly"
 					>
-						<h3 class="card-title text-center">忍者運輸有限公司</h3>
+						<h3 class="card-title text-center">忍者通運有限公司</h3>
 						<ul
 							class="d-flex flex-column align-items-start justify-content-evenly h-100 ps-3"
 						>
