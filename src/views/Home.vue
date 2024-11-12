@@ -274,18 +274,13 @@
 </template>
 
 <script>
+	import { onMounted, onActivated, onDeactivated } from "vue";
 	import AOS from "aos";
 	import "aos/dist/aos.css";
 
 	export default {
-		mounted() {
-			AOS.init();
-			this.$nextTick(() => {
-				this.initCarousel();
-			});
-		},
-		methods: {
-			initCarousel() {
+		setup() {
+			const initCarousel = () => {
 				const carousel = document.querySelector("#carouselAutoplaying");
 				if (carousel) {
 					new bootstrap.Carousel(carousel, {
@@ -293,18 +288,27 @@
 						ride: "carousel",
 					});
 				}
-			},
-		},
-		activated() {
-			this.initCarousel();
-		},
-		deactivated() {
-			const carousel = bootstrap.Carousel.getInstance(
-				document.querySelector("#carouselAutoplaying")
-			);
-			if (carousel) {
-				carousel.pause();
-			}
+			};
+
+			onMounted(() => {
+				AOS.init();
+				initCarousel();
+			});
+
+			onActivated(() => {
+				initCarousel();
+			});
+
+			onDeactivated(() => {
+				const carousel = bootstrap.Carousel.getInstance(
+					document.querySelector("#carouselAutoplaying")
+				);
+				if (carousel) {
+					carousel.pause();
+				}
+			});
+
+			return { initCarousel };
 		},
 	};
 </script>
@@ -324,7 +328,7 @@
 		}
 	}
 
-	.mobile-header{
+	.mobile-header {
 		display: none;
 		@include breakpoint(576px) {
 			display: block;

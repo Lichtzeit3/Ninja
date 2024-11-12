@@ -41,7 +41,7 @@
 									class="align-middle icon"
 									draggable="false"
 								/><span class="fs-5 align-middle ps-3 info"
-									>0988 168 588</span
+									>0932 873 910</span
 								>
 							</li>
 							<li class="">
@@ -96,12 +96,15 @@
 </template>
 
 <script>
+	import { onMounted } from "vue";
 	import AOS from "aos";
 	import "aos/dist/aos.css";
 
 	export default {
-		mounted() {
-			AOS.init();
+		setup() {
+			onMounted(() => {
+				AOS.init();
+			});
 		},
 	};
 </script>
@@ -116,7 +119,7 @@
 	}
 
 	.wrapper {
-		background-color: rgba(0, 0, 0, 0.1);
+		background-color: rgba(0, 0, 0, 0.03);
 		width: 100%;
 		padding-bottom: 80px;
 		position: relative;

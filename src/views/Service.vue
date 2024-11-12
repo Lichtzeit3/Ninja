@@ -6,7 +6,7 @@
 			<h1>服務項目</h1>
 		</header>
 		<main>
-			<section class="text-center mb-120 px-4" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
+			<section class="text-center mb-120 px-4">
 				<h4 class="mb-4 lh-base">
 					忍者運輸有限公司 - 您值得信賴的重機託運專家
 				</h4>
@@ -14,15 +14,13 @@
 					忍者運輸有限公司專注於提供專業的重機機車託運服務，憑藉多年行業經驗，我們的專業團隊能夠提供全方位的託運解決方案，確保您的愛車安全無憂地送達目的地。
 				</p>
 			</section>
-			<section
-				class="text-center mb-120"
-				data-aos="fade-left"
-				data-aos-delay="300"
-				data-aos-anchor-placement="top-bottom"
-			>
+			<section class="text-center mb-120">
 				<h4 class="mb-4">為何選擇忍者通運？</h4>
 				<div class="d-flex justify-content-evenly cards">
-					<div class="card border-0 mobile-margin" style="width: 18rem" data-aos="fade-up" data-aos-delay="300">
+					<div
+						class="card border-0 mobile-margin"
+						style="width: 18rem"
+					>
 						<div class="circle">
 							<img
 								src="../assets/images/service/professional.png"
@@ -37,7 +35,10 @@
 							</p>
 						</div>
 					</div>
-					<div class="card border-0 mobile-margin" style="width: 18rem"  data-aos="fade-up" data-aos-delay="300">
+					<div
+						class="card border-0 mobile-margin"
+						style="width: 18rem"
+					>
 						<div class="circle">
 							<img
 								src="../assets/images/service/safety.png"
@@ -52,7 +53,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="card border-0" style="width: 18rem"  data-aos="fade-up" data-aos-delay="300">
+					<div class="card border-0" style="width: 18rem">
 						<div class="circle">
 							<img
 								src="../assets/images/service/service.png"
@@ -69,7 +70,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="text-center mb-120" data-aos="fade-right">
+			<section class="text-center mb-120">
 				<h4>我們對您的承諾</h4>
 				<div>
 					<span class="quote left-quote">&#x301D</span><br>
@@ -79,7 +80,7 @@
 					<span class="quote right-quote">&#x301E</span>
 				</div>
 			</section>
-			<h6 class="fs-6 fw-normal text-center mb-80 lh-base px-4" data-aos="fade-left">
+			<h6 class="fs-6 fw-normal text-center mb-80 lh-base px-4">
 				準備好安心託運您的機車了嗎？聯繫忍者運輸有限公司，讓我們為您打理一切運輸事宜，讓您輕鬆上路！
 			</h6>
 		</main>
@@ -91,15 +92,10 @@
 	</div>
 </template>
 
-<script>
-	import AOS from "aos";
-	import "aos/dist/aos.css";
+<script setup>
+	import { onMounted } from "vue";
 
-	export default {
-		mounted() {
-			AOS.init();
-		},
-	};
+	onMounted(() => {});
 </script>
 
 <style lang="scss" scoped>
@@ -121,7 +117,7 @@
 			width: 100%;
 		}
 
-		.cards{
+		.cards {
 			@include breakpoint(576px) {
 				flex-direction: column;
 				align-items: center;
@@ -152,7 +148,7 @@
 		margin: 0 auto;
 	}
 
-	.mobile-margin{
+	.mobile-margin {
 		@include breakpoint(576px) {
 			margin-bottom: $spacer * 3;
 		}

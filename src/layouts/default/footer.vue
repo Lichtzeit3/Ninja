@@ -18,7 +18,7 @@
 						alt="phone icon"
 						style="width: 1.25rem"
 					/>
-					0988 168 588
+					0932 873 910
 				</li>
 				<li class="text-white">
 					<img

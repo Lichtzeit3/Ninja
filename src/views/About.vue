@@ -29,12 +29,15 @@
 </template>
 
 <script>
+	import { onMounted } from "vue";
 	import AOS from "aos";
 	import "aos/dist/aos.css";
 
 	export default {
-		mounted() {
-			AOS.init();
+		setup() {
+			onMounted(() => {
+				AOS.init();
+			});
 		},
 	};
 </script>
@@ -49,7 +52,7 @@
 	}
 
 	.wrapper {
-		background-color: rgba(0, 0, 0, 0.1);
+		background-color: rgba(0, 0, 0, 0.03);
 		width: 100%;
 		position: relative;
 		padding-bottom: 80px;

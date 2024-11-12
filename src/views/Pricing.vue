@@ -10,12 +10,9 @@
 			<h2 class="text-center mb-40 mx-4">
 				一般重型機車 （600 c.c (含) 以下）
 			</h2>
-			<div class="container table-responsive">
+			<div class="container table-responsive table-off">
 				<table
 					class="table table-sm table-hover table-striped-columns text-center fs-5"
-					data-aos="zoom-in"
-					data-aos-anchor-placement="top-bottom"
-					data-aos-duration="1000"
 				>
 					<caption class="fs-6 text-end">
 						新台幣 NTD
@@ -41,7 +38,7 @@
 					<tbody>
 						<tr>
 							<th scope="row" class="table-dark">花蓮</th>
-							<td></td>
+							<td>-</td>
 							<td>4,200</td>
 							<td>6,000</td>
 							<td>6,000</td>
@@ -53,12 +50,12 @@
 							<td>10,000</td>
 							<td>10,500</td>
 							<td>11,000</td>
-							<td></td>
+							<td>-</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">宜蘭</th>
-							<td></td>
-							<td></td>
+							<td>4,200</td>
+							<td>-</td>
 							<td>3,000</td>
 							<td>3,000</td>
 							<td>3,500</td>
@@ -69,12 +66,12 @@
 							<td>6,000</td>
 							<td>6,500</td>
 							<td>7,000</td>
-							<td></td>
+							<td>-</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">基隆</th>
-							<td></td>
-							<td></td>
+							<td>6,000</td>
+							<td>3,000</td>
 							<td>2,000</td>
 							<td>2,000</td>
 							<td>2,500</td>
@@ -85,13 +82,13 @@
 							<td>5,200</td>
 							<td>5,800</td>
 							<td>6,000</td>
-							<td></td>
+							<td>-</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">台北</th>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>6,000</td>
+							<td>3,000</td>
+							<td>2,000</td>
 							<td>2,000</td>
 							<td>2,000</td>
 							<td>2,500</td>
@@ -101,14 +98,14 @@
 							<td>4,800</td>
 							<td>5,500</td>
 							<td>5,800</td>
-							<td></td>
+							<td>-</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">桃園</th>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>6,800</td>
+							<td>3,500</td>
+							<td>2,500</td>
+							<td>2,000</td>
 							<td>2,000</td>
 							<td>2,000</td>
 							<td>2,800</td>
@@ -117,15 +114,15 @@
 							<td>4,500</td>
 							<td>5,200</td>
 							<td>5,500</td>
-							<td></td>
+							<td>-</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">新竹</th>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>7,500</td>
+							<td>4,000</td>
+							<td>2,800</td>
+							<td>2,500</td>
+							<td>2,000</td>
 							<td>2,000</td>
 							<td>2,500</td>
 							<td>2,700</td>
@@ -133,119 +130,119 @@
 							<td>4,200</td>
 							<td>4,700</td>
 							<td>5,000</td>
-							<td></td>
+							<td>-</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">台中</th>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>8,000</td>
+							<td>4,500</td>
+							<td>3,300</td>
+							<td>3,100</td>
+							<td>2,800</td>
+							<td>2,500</td>
 							<td>2,000</td>
 							<td>2,000</td>
 							<td>3,000</td>
 							<td>3,500</td>
 							<td>4,200</td>
 							<td>4,500</td>
-							<td></td>
+							<td>-</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">彰化</th>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>8,500</td>
+							<td>5,000</td>
+							<td>3,600</td>
+							<td>3,400</td>
+							<td>3,000</td>
+							<td>2,700</td>
+							<td>2,000 *</td>
 							<td>2,500</td>
 							<td>2,500</td>
 							<td>3,200</td>
 							<td>3,600</td>
 							<td>4,200</td>
-							<td></td>
+							<td>-</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">嘉義</th>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>9,500</td>
+							<td>5,000</td>
+							<td>4,700</td>
+							<td>4,500</td>
+							<td>4,200</td>
+							<td>3,500</td>
+							<td>3,000</td>
+							<td>2,500</td>
+							<td>-</td>
+							<td>-</td>
 							<td>3,600</td>
 							<td>4,200</td>
-							<td></td>
+							<td>-</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">台南</th>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>10,000</td>
+							<td>6,000</td>
+							<td>5,200</td>
+							<td>4,800</td>
+							<td>4,500</td>
+							<td>4,200</td>
+							<td>3,500</td>
+							<td>3,200</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">高雄</th>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>10,500</td>
+							<td>6,500</td>
+							<td>5,800</td>
+							<td>5,500</td>
+							<td>5,200</td>
+							<td>4,700</td>
+							<td>4,200</td>
+							<td>3,600</td>
+							<td>3,600</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">屏東</th>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>11,000</td>
+							<td>7,000</td>
+							<td>6,000</td>
+							<td>5,800</td>
+							<td>5,500</td>
+							<td>5,000</td>
+							<td>4,500</td>
+							<td>4,200</td>
+							<td>4,200</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">台東</th>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
 						</tr>
 					</tbody>
 				</table>
@@ -269,15 +266,10 @@
 	</div>
 </template>
 
-<script>
-	import AOS from "aos";
-	import "aos/dist/aos.css";
+<script setup>
+	import { onMounted } from "vue";
 
-	export default {
-		mounted() {
-			AOS.init();
-		},
-	};
+	onMounted(() => {});
 </script>
 
 <style lang="scss" scoped>
@@ -298,16 +290,17 @@
 			height: 160px;
 			width: 100%;
 		}
-		th{
-			text-wrap: nowrap;
+		.table-off {
+			th {
+				text-wrap: nowrap;
+			}
+			td {
+				font-size: $font-size-base;
+			}
+			ol {
+				list-style-type: decimal;
+			}
 		}
-		td{
-			font-size: $font-size-base;
-		}
-		ol {
-			list-style-type: decimal;
-		}
-
 		.explain {
 			margin-left: 12vw;
 			@include breakpoint(992px) {
