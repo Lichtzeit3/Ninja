@@ -19,230 +19,261 @@
 					</caption>
 					<thead>
 						<tr class="table-dark">
-							<th scope="col"></th>
-							<th scope="col">花蓮</th>
-							<th scope="col">宜蘭</th>
-							<th scope="col">基隆</th>
-							<th scope="col">台北</th>
-							<th scope="col">桃園</th>
-							<th scope="col">新竹</th>
-							<th scope="col">台中</th>
-							<th scope="col">彰化</th>
-							<th scope="col">嘉義</th>
-							<th scope="col">台南</th>
-							<th scope="col">高雄</th>
+							<th scope="col">地點</th>
 							<th scope="col">屏東</th>
-							<th scope="col">台東</th>
+							<th scope="col">高雄</th>
+							<th scope="col">台南</th>
+							<th scope="col">嘉義</th>
+							<th scope="col">雲林</th>
+							<th scope="col">彰化</th>
+							<th scope="col">台中</th>
+							<th scope="col">苗栗</th>
+							<th scope="col">新竹</th>
+							<th scope="col">桃園</th>
+							<th scope="col">台北</th>
+							<th scope="col">基隆</th>
+							<th scope="col">宜蘭</th>
+							<th scope="col">花蓮</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<th scope="row" class="table-dark">花蓮</th>
-							<td>-</td>
-							<td>4,200</td>
-							<td>6,000</td>
-							<td>6,000</td>
-							<td>6,800</td>
-							<td>7,500</td>
-							<td>8,000</td>
-							<td>8,500</td>
-							<td>9,500</td>
-							<td>10,000</td>
-							<td>10,500</td>
+							<td>16,000</td>
+							<td>14,000</td>
+							<td>13,000</td>
+							<td>12,500</td>
+							<td>12,000</td>
+							<td>11,500</td>
 							<td>11,000</td>
+							<td>10,500</td>
+							<td>10,000</td>
+							<td>9,000</td>
+							<td>8,000</td>
+							<td>9,000</td>
+							<td>7,000</td>
 							<td>-</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">宜蘭</th>
-							<td>4,200</td>
-							<td>-</td>
-							<td>3,000</td>
-							<td>3,000</td>
-							<td>3,500</td>
-							<td>4,000</td>
-							<td>4,500</td>
-							<td>5,000</td>
-							<td>5,500</td>
-							<td>6,000</td>
-							<td>6,500</td>
+							<td>10,500</td>
+							<td>8,500</td>
+							<td>8,000</td>
+							<td>7,500</td>
 							<td>7,000</td>
+							<td>6,500</td>
+							<td>6,000</td>
+							<td>5,500</td>
+							<td>5,000</td>
+							<td>3,000</td>
+							<td>2,500</td>
+							<td>3,000</td>
 							<td>-</td>
+							<td>7,000</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">基隆</th>
+							<td>9,000</td>
+							<td>7,000</td>
 							<td>6,000</td>
+							<td>5,500</td>
+							<td>5,000</td>
+							<td>4,500</td>
+							<td>4,000</td>
+							<td>3,500</td>
 							<td>3,000</td>
-							<td>2,000</td>
-							<td>2,000</td>
 							<td>2,500</td>
-							<td>2,800</td>
-							<td>3,300</td>
-							<td>3,600</td>
-							<td>4,700</td>
-							<td>5,200</td>
-							<td>5,800</td>
-							<td>6,000</td>
+							<td>2,000</td>
 							<td>-</td>
+							<td>3,000</td>
+							<td>9,000</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">台北</th>
-							<td>6,000</td>
+							<td>8,500</td>
+							<td>6,500</td>
+							<td>5,000</td> <!-- 5,500? -->
+							<td>5,000</td>
+							<td>4,500</td>
+							<td>4,000</td>
+							<td>3,500</td>
 							<td>3,000</td>
-							<td>2,000</td>
-							<td>2,000</td>
+							<td>2,500</td>
+							<td>1,500</td>
+							<td>-</td>
 							<td>2,000</td>
 							<td>2,500</td>
-							<td>3,100</td>
-							<td>3,400</td>
-							<td>4,500</td>
-							<td>4,800</td>
-							<td>5,500</td>
-							<td>5,800</td>
-							<td>-</td>
+							<td>8,000</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">桃園</th>
-							<td>6,800</td>
+							<td>8,000</td>
+							<td>6,000</td>
+							<td>5,000</td>
+							<td>4,500</td>
+							<td>4,000</td>
 							<td>3,500</td>
+							<td>3,000</td>
 							<td>2,500</td>
 							<td>2,000</td>
-							<td>2,000</td>
-							<td>2,000</td>
-							<td>2,800</td>
-							<td>3,000</td>
-							<td>4,200</td>
-							<td>4,500</td>
-							<td>5,200</td>
-							<td>5,500</td>
 							<td>-</td>
+							<td>1,500</td>
+							<td>2,500</td>
+							<td>3,000</td>
+							<td>9,000</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">新竹</th>
 							<td>7,500</td>
+							<td>5,500</td>
+							<td>4,500</td>
 							<td>4,000</td>
-							<td>2,800</td>
-							<td>2,500</td>
-							<td>2,000</td>
-							<td>2,000</td>
-							<td>2,500</td>
-							<td>2,700</td>
 							<td>3,500</td>
-							<td>4,200</td>
-							<td>4,700</td>
-							<td>5,000</td>
+							<td>3,000</td>
+							<td>2,500</td>
+							<td>2,000</td>
 							<td>-</td>
+							<td>2,000</td>
+							<td>2,500</td>
+							<td>3,000</td>
+							<td>5,000</td>
+							<td>10,000</td>
+						</tr>
+						<tr>
+							<th scope="row" class="table-dark">苗栗</th>
+							<td>7,000</td>
+							<td>5,000</td>
+							<td>4,000</td>
+							<td>3,500</td>
+							<td>3,000</td>
+							<td>2,500</td>
+							<td>2,000</td>
+							<td>-</td>
+							<td>2,000</td>
+							<td>2,500</td>
+							<td>3,000</td>
+							<td>3,500</td>
+							<td>5,500</td>
+							<td>10,500</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">台中</th>
-							<td>8,000</td>
+							<td>6,500</td>
 							<td>4,500</td>
-							<td>3,300</td>
-							<td>3,100</td>
-							<td>2,800</td>
+							<td>3,500</td>
+							<td>3,000</td>
 							<td>2,500</td>
 							<td>2,000</td>
+							<td>-</td>
 							<td>2,000</td>
+							<td>2,500</td>
 							<td>3,000</td>
 							<td>3,500</td>
-							<td>4,200</td>
-							<td>4,500</td>
-							<td>-</td>
+							<td>4,000</td>
+							<td>6,600</td> <!-- 6,000? -->
+							<td>11,000</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">彰化</th>
-							<td>8,500</td>
-							<td>5,000</td>
-							<td>3,600</td>
-							<td>3,400</td>
+							<td>6,000</td>
+							<td>4,000</td>
 							<td>3,000</td>
-							<td>2,700</td>
+							<td>2,500</td>
+							<td>2,000</td>
+							<td>-</td>
 							<td>2,000</td>
 							<td>2,500</td>
+							<td>3,000</td>
+							<td>3,500</td>
+							<td>4,000</td>
+							<td>4,500</td>
+							<td>6,500</td>
+							<td>11,500</td>
+						</tr>
+						<tr>
+							<th scope="row" class="table-dark">雲林</th>
+							<td>5,500</td>
+							<td>3,500</td>
 							<td>2,500</td>
-							<td>3,200</td>
-							<td>3,600</td>
-							<td>4,200</td>
+							<td>2,000</td>
 							<td>-</td>
+							<td>2,000</td>
+							<td>2,500</td>
+							<td>3,000</td>
+							<td>3,500</td>
+							<td>4,000</td>
+							<td>4,500</td>
+							<td>5,000</td>
+							<td>7,000</td>
+							<td>12,000</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">嘉義</th>
-							<td>9,500</td>
 							<td>5,000</td>
-							<td>4,700</td>
-							<td>4,500</td>
-							<td>4,200</td>
-							<td>3,500</td>
 							<td>3,000</td>
+							<td>2,000</td>
+							<td>-</td>
+							<td>2,000</td>
 							<td>2,500</td>
-							<td>-</td>
-							<td>-</td>
-							<td>3,600</td>
-							<td>4,200</td>
-							<td>-</td>
+							<td>3,000</td>
+							<td>3,500</td>
+							<td>4,000</td>
+							<td>4,500</td>
+							<td>5,000</td>
+							<td>5,500</td>
+							<td>7,500</td>
+							<td>12,500</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">台南</th>
-							<td>10,000</td>
-							<td>6,000</td>
-							<td>5,200</td>
-							<td>4,800</td>
 							<td>4,500</td>
-							<td>4,200</td>
+							<td>2,000</td>
+							<td>-</td>
+							<td>2,000</td>
+							<td>2,500</td>
+							<td>3,000</td>
 							<td>3,500</td>
-							<td>3,200</td>
-							<td>-</td>
-							<td>-</td>
-							<td>-</td>
-							<td>-</td>
-							<td>-</td>
+							<td>4,000</td>
+							<td>4,500</td>
+							<td>5,000</td>
+							<td>5,500</td>
+							<td>6,000</td>
+							<td>8,000</td>
+							<td>13,000</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">高雄</th>
-							<td>10,500</td>
-							<td>6,500</td>
-							<td>5,800</td>
+							<td>4,000</td>
+							<td>-</td>
+							<td>2,000</td>
+							<td>3,000</td>
+							<td>3,500</td>
+							<td>4,000</td>
+							<td>4,500</td>
+							<td>5,000</td>
 							<td>5,500</td>
-							<td>5,200</td>
-							<td>4,700</td>
-							<td>4,200</td>
-							<td>3,600</td>
-							<td>3,600</td>
-							<td>-</td>
-							<td>-</td>
-							<td>-</td>
-							<td>-</td>
+							<td>6,000</td>
+							<td>6,500</td>
+							<td>7,000</td>
+							<td>8,500</td>
+							<td>14,000</td>
 						</tr>
 						<tr>
 							<th scope="row" class="table-dark">屏東</th>
-							<td>11,000</td>
-							<td>7,000</td>
-							<td>6,000</td>
-							<td>5,800</td>
-							<td>5,500</td>
-							<td>5,000</td>
+							<td>-</td>
+							<td>4,000</td>
 							<td>4,500</td>
-							<td>4,200</td>
-							<td>4,200</td>
-							<td>-</td>
-							<td>-</td>
-							<td>-</td>
-							<td>-</td>
-						</tr>
-						<tr>
-							<th scope="row" class="table-dark">台東</th>
-							<td>-</td>
-							<td>-</td>
-							<td>-</td>
-							<td>-</td>
-							<td>-</td>
-							<td>-</td>
-							<td>-</td>
-							<td>-</td>
-							<td>-</td>
-							<td>-</td>
-							<td>-</td>
-							<td>-</td>
-							<td>-</td>
+							<td>5,000</td>
+							<td>5,500</td>
+							<td>6,000</td>
+							<td>6,500</td>
+							<td>7,000</td>
+							<td>7,500</td>
+							<td>8,000</td>
+							<td>8,500</td>
+							<td>9,000</td>
+							<td>10,500</td>
+							<td>16,000</td>
 						</tr>
 					</tbody>
 				</table>
@@ -290,7 +321,8 @@
 			height: 160px;
 			width: 100%;
 		}
-		th,td{
+		th,
+		td {
 			text-align: center;
 			vertical-align: middle;
 		}
@@ -300,7 +332,7 @@
 				margin: 0 2rem;
 			}
 		}
-		ol{
+		ol {
 			list-style: decimal;
 		}
 	}

@@ -4,7 +4,7 @@
 			<!-- Logo -->
 			<router-link to="/">
 				<img
-					src="@/assets/images//logo.svg"
+					src="@/assets/images/logo.svg"
 					alt="footerLogo"
 					class="footer_logo"
 					draggable="false"

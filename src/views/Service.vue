@@ -23,7 +23,7 @@
 					>
 						<div class="circle shadow-sm">
 							<img
-								src="../assets/images/service/professional.png"
+								src="../assets/images/service/professional.webp"
 								class="card-img-top"
 								alt="professional"
 								draggable="false"
@@ -42,7 +42,7 @@
 					>
 						<div class="circle shadow-sm">
 							<img
-								src="../assets/images/service/safety.png"
+								src="../assets/images/service/safety.webp"
 								class="card-img-top"
 								alt="safety"
 								draggable="false"
@@ -58,7 +58,7 @@
 					<div class="card border-0" style="width: 18rem">
 						<div class="circle shadow-sm">
 							<img
-								src="../assets/images/service/service.png"
+								src="../assets/images/service/service.webp"
 								class="card-img-top"
 								alt="service"
 								draggable="false"

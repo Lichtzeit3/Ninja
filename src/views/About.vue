@@ -6,7 +6,7 @@
 			<h1>關於我們</h1>
 		</header>
 		<img
-			src="../assets/images/Logo_black_ninja.png"
+			src="../assets/images/Logo_black_ninja.webp"
 			alt="ninja_logo"
 			draggable="false"
 		/>
