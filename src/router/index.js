@@ -4,8 +4,6 @@ import { createRouter, createWebHistory } from "vue-router";
 
 // path → component
 const routes = [
-	//   { path: '/', component: () => import('@/pages/HomeView.vue') },
-	//   { path: '/about', component: () => import('@/pages/AboutView.vue') }
 	{
 		path: "/",
 		name: "Home",

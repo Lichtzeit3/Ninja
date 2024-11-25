@@ -37,19 +37,19 @@
 				<div class="carousel-item active">
 					<picture>
 						<source
-							srcset="../assets/images/home/motorbikes_XL.jpg"
+							srcset="../assets/images/home/motorbikes_XL.webp"
 							media="(min-width: 1441px)"
 						/>
 						<source
-							srcset="../assets/images/home/motorbikes_L.jpg"
+							srcset="../assets/images/home/motorbikes_L.webp"
 							media="(min-width: 769px)"
 						/>
 						<source
-							srcset="../assets/images/home/motorbikes_M.jpg"
+							srcset="../assets/images/home/motorbikes_M.webp"
 							media="(min-width: 576px)"
 						/>
 						<img
-							src="../assets/images/home/motorbikes_S.jpg"
+							src="../assets/images/home/motorbikes_S.webp"
 							class="d-block w-100"
 							alt="motorbikes"
 						/>
@@ -65,19 +65,19 @@
 				<div class="carousel-item">
 					<picture>
 						<source
-							srcset="../assets/images/home/motorbikes2_XL.jpg"
+							srcset="../assets/images/home/motorbikes2_XL.webp"
 							media="(min-width: 1440px)"
 						/>
 						<source
-							srcset="../assets/images/home/motorbikes2_L.jpg"
+							srcset="../assets/images/home/motorbikes2_L.webp"
 							media="(min-width: 768px)"
 						/>
 						<source
-							srcset="../assets/images/home/motorbikes2_M.jpg"
+							srcset="../assets/images/home/motorbikes2_M.webp"
 							media="(min-width: 576px)"
 						/>
 						<img
-							src="../assets/images/home/motorbikes2_S.jpg"
+							src="../assets/images/home/motorbikes2_S.webp"
 							class="d-block w-100"
 							alt="motorbikes"
 						/>
@@ -86,26 +86,26 @@
 						class="carousel-caption d-flex justify-content-center align-items-center h-100"
 					>
 						<h1 class="h1 fw-bold text-shadow text-nowrap">
-							專業重機託運服務
+							安全專業重機配送
 						</h1>
 					</div>
 				</div>
 				<div class="carousel-item">
 					<picture>
 						<source
-							srcset="../assets/images/home/motorbikes3_XL.jpg"
+							srcset="../assets/images/home/motorbikes3_XL.webp"
 							media="(min-width: 1440px)"
 						/>
 						<source
-							srcset="../assets/images/home/motorbikes3_L.jpg"
+							srcset="../assets/images/home/motorbikes3_L.webp"
 							media="(min-width: 768px)"
 						/>
 						<source
-							srcset="../assets/images/home/motorbikes3_M.jpg"
+							srcset="../assets/images/home/motorbikes3_M.webp"
 							media="(min-width: 576px)"
 						/>
 						<img
-							src="../assets/images/home/motorbikes3_S.jpg"
+							src="../assets/images/home/motorbikes3_S.webp"
 							class="d-block w-100"
 							alt="motorbikes"
 						/>
@@ -114,26 +114,26 @@
 						class="carousel-caption d-flex justify-content-center align-items-center h-100"
 					>
 						<h1 class="h1 fw-bold text-shadow text-nowrap">
-							專業重機託運服務
+							專業重機安全守護
 						</h1>
 					</div>
 				</div>
 				<div class="carousel-item">
 					<picture>
 						<source
-							srcset="../assets/images/home/motorbikes4_XL.jpg"
+							srcset="../assets/images/home/motorbikes4_XL.webp"
 							media="(min-width: 1440px)"
 						/>
 						<source
-							srcset="../assets/images/home/motorbikes4_L.jpg"
+							srcset="../assets/images/home/motorbikes4_L.webp"
 							media="(min-width: 768px)"
 						/>
 						<source
-							srcset="../assets/images/home/motorbikes4_M.jpg"
+							srcset="../assets/images/home/motorbikes4_M.webp"
 							media="(min-width: 576px)"
 						/>
 						<img
-							src="../assets/images/home/motorbikes4_S.jpg"
+							src="../assets/images/home/motorbikes4_S.webp"
 							class="d-block w-100"
 							alt="motorbikes"
 						/>
@@ -142,7 +142,7 @@
 						class="carousel-caption d-flex justify-content-center align-items-center h-100"
 					>
 						<h1 class="h1 fw-bold text-shadow text-nowrap">
-							專業重機託運服務
+							服務至上的運輸專家
 						</h1>
 					</div>
 				</div>
@@ -184,7 +184,8 @@
 				class="row justify-content-evenly mb-100"
 				data-aos="fade-up"
 				data-aos-anchor-placement="top-bottom"
-				data-aos-duration="500"
+				data-aos-duration="800"
+				data-aos-offset="100"
 			>
 				<div class="d-flex col-10 col-sm-6 col-lg-4">
 					<div
@@ -212,7 +213,8 @@
 				class="row justify-content-evenly mb-100 protection"
 				data-aos="fade-up"
 				data-aos-anchor-placement="top-bottom"
-				data-aos-duration="500"
+				data-aos-duration="800"
+				data-aos-offset="100"
 			>
 				<div class="col-10 col-sm-6 col-lg-4">
 					<div
@@ -240,7 +242,8 @@
 				class="row justify-content-evenly mb-80"
 				data-aos="fade-up"
 				data-aos-anchor-placement="top-bottom"
-				data-aos-duration="500"
+				data-aos-duration="800"
+				data-aos-offset="100"
 			>
 				<div class="d-flex col-10 col-sm-6 col-lg-4">
 					<div

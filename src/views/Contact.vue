@@ -20,9 +20,9 @@
 			<div class="row g-0">
 				<div class="col-6 contact-img">
 					<img
-						src="../assets/images/contact/contact.jpg"
-						class="img-fluid rounded-4"
-						alt="..."
+						src="../assets/images/contact/contact.webp"
+						class="img-fluid img-radius"
+						alt="contact"
 						draggable="false"
 					/>
 				</div>
@@ -34,7 +34,7 @@
 						<ul
 							class="d-flex flex-column align-items-start justify-content-evenly h-100 ps-3"
 						>
-							<li class="">
+							<li>
 								<img
 									src="../assets/images/icon/phone.svg"
 									alt="phone_icon"
@@ -44,7 +44,7 @@
 									>0932 873 910</span
 								>
 							</li>
-							<li class="">
+							<li>
 								<img
 									src="../assets/images/icon/mail.svg"
 									alt="email_icon"
@@ -54,7 +54,7 @@
 									>ninjatw@gmail.com</span
 								>
 							</li>
-							<li class="">
+							<li>
 								<img
 									src="../assets/images/icon/pin.svg"
 									alt="address_icon"
@@ -156,6 +156,9 @@
 			.contact-img {
 				@include breakpoint(992px) {
 					display: none;
+				}
+				.img-radius {
+					border-radius: 1rem 0 0 1rem;
 				}
 			}
 			.card-body {

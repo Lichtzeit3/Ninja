@@ -21,11 +21,12 @@
 						class="card border-0 mobile-margin"
 						style="width: 18rem"
 					>
-						<div class="circle">
+						<div class="circle shadow-sm">
 							<img
 								src="../assets/images/service/professional.png"
 								class="card-img-top"
 								alt="professional"
+								draggable="false"
 							/>
 						</div>
 						<div class="card-body">
@@ -39,11 +40,12 @@
 						class="card border-0 mobile-margin"
 						style="width: 18rem"
 					>
-						<div class="circle">
+						<div class="circle shadow-sm">
 							<img
 								src="../assets/images/service/safety.png"
 								class="card-img-top"
 								alt="safety"
+								draggable="false"
 							/>
 						</div>
 						<div class="card-body">
@@ -54,11 +56,12 @@
 						</div>
 					</div>
 					<div class="card border-0" style="width: 18rem">
-						<div class="circle">
+						<div class="circle shadow-sm">
 							<img
 								src="../assets/images/service/service.png"
 								class="card-img-top"
 								alt="service"
+								draggable="false"
 							/>
 						</div>
 						<div class="card-body">
@@ -143,7 +146,7 @@
 
 	.circle {
 		display: block;
-		border-radius: 100%;
+		border-radius: 50%;
 		width: 128px;
 		margin: 0 auto;
 	}

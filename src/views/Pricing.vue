@@ -8,11 +8,11 @@
 
 		<main class="mb-80">
 			<h2 class="text-center mb-40 mx-4">
-				一般重型機車 （600 c.c (含) 以下）
+				一般重型機車（600 c.c (含) 以下）
 			</h2>
-			<div class="container table-responsive table-off">
+			<div class="container table-responsive">
 				<table
-					class="table table-sm table-hover table-striped-columns text-center fs-5"
+					class="table table-hover table-striped-columns text-center fs-5"
 				>
 					<caption class="fs-6 text-end">
 						新台幣 NTD
@@ -156,7 +156,7 @@
 							<td>3,400</td>
 							<td>3,000</td>
 							<td>2,700</td>
-							<td>2,000 *</td>
+							<td>2,000</td>
 							<td>2,500</td>
 							<td>2,500</td>
 							<td>3,200</td>
@@ -290,22 +290,18 @@
 			height: 160px;
 			width: 100%;
 		}
-		.table-off {
-			th {
-				text-wrap: nowrap;
-			}
-			td {
-				font-size: $font-size-base;
-			}
-			ol {
-				list-style-type: decimal;
-			}
+		th,td{
+			text-align: center;
+			vertical-align: middle;
 		}
 		.explain {
 			margin-left: 12vw;
 			@include breakpoint(992px) {
 				margin: 0 2rem;
 			}
+		}
+		ol{
+			list-style: decimal;
 		}
 	}
 
