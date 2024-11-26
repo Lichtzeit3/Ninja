@@ -1,7 +1,7 @@
 <template>
 	<div class="wrapper">
 		<header
-			class="header h1 text-white text-shadow d-flex justify-content-center align-items-center mb-100"
+			class="header text-white text-shadow d-flex justify-content-center align-items-center mb-100"
 		>
 			<h1>收費標準</h1>
 		</header>
@@ -291,7 +291,7 @@
 		</main>
 		<div class="text-center">
 			<RouterLink to="/contact" class="btn btn-danger btn-lg"
-				><h4 class="m-2 text-nowrap">聯絡我們</h4></RouterLink
+				><p class="h4 m-2 text-nowrap">聯絡我們</p></RouterLink
 			>
 		</div>
 	</div>
@@ -351,8 +351,5 @@
 
 	.mb-80 {
 		margin-bottom: 80px;
-	}
-	.btn {
-		font-size: $h4-font-size;
 	}
 </style>

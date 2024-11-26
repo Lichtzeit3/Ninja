@@ -89,7 +89,7 @@
 		</main>
 		<div class="text-center">
 			<RouterLink to="/contact" class="btn btn-danger btn-lg"
-				><h4 class="m-2 text-nowrap">聯絡我們</h4></RouterLink
+				><p class="h4 m-2 text-nowrap">聯絡我們</p></RouterLink
 			>
 		</div>
 	</div>
@@ -167,8 +167,5 @@
 
 	.mb-80 {
 		margin-bottom: 80px;
-	}
-	.btn {
-		font-size: $h4-font-size;
 	}
 </style>

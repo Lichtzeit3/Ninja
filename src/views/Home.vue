@@ -57,7 +57,7 @@
 					<div
 						class="carousel-caption d-flex justify-content-center align-items-center h-100"
 					>
-						<h1 class="h1 fw-bold text-shadow text-nowrap">
+						<h1 class="fw-bold text-shadow text-nowrap">
 							專業重機託運服務
 						</h1>
 					</div>
@@ -85,9 +85,9 @@
 					<div
 						class="carousel-caption d-flex justify-content-center align-items-center h-100"
 					>
-						<h1 class="h1 fw-bold text-shadow text-nowrap">
+						<p class="h1 fw-bold text-shadow text-nowrap">
 							安全專業重機配送
-						</h1>
+						</p>
 					</div>
 				</div>
 				<div class="carousel-item">
@@ -113,9 +113,9 @@
 					<div
 						class="carousel-caption d-flex justify-content-center align-items-center h-100"
 					>
-						<h1 class="h1 fw-bold text-shadow text-nowrap">
+						<p class="h1 fw-bold text-shadow text-nowrap">
 							專業重機安全守護
-						</h1>
+						</p>
 					</div>
 				</div>
 				<div class="carousel-item">
@@ -141,9 +141,9 @@
 					<div
 						class="carousel-caption d-flex justify-content-center align-items-center h-100"
 					>
-						<h1 class="h1 fw-bold text-shadow text-nowrap">
+						<p class="h1 fw-bold text-shadow text-nowrap">
 							服務至上的運輸專家
-						</h1>
+						</p>
 					</div>
 				</div>
 			</div>
@@ -174,7 +174,7 @@
 		</header>
 		<section class="mobile-header">
 			<h1
-				class="header h1 text-white text-shadow d-flex justify-content-center align-items-center"
+				class="header text-white text-shadow d-flex justify-content-center align-items-center"
 			>
 				專業重機託運服務
 			</h1>
@@ -270,7 +270,7 @@
 		</main>
 		<div class="text-center mb-80">
 			<RouterLink to="/contact" class="btn btn-danger btn-lg"
-				><h4 class="m-2 text-nowrap">聯絡我們</h4></RouterLink
+				><p class="h4 m-2 text-nowrap">聯絡我們</p></RouterLink
 			>
 		</div>
 	</div>

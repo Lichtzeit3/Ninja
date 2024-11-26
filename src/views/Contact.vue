@@ -1,7 +1,7 @@
 <template>
 	<div class="wrapper">
 		<header
-			class="header h1 text-white text-shadow d-flex justify-content-center align-items-center mb-100"
+			class="header text-white text-shadow d-flex justify-content-center align-items-center mb-100"
 		>
 			<h1>聯絡我們</h1>
 		</header>
@@ -30,7 +30,7 @@
 					<div
 						class="card-body d-flex flex-column h-100 align-items-center justify-content-evenly"
 					>
-						<h3 class="card-title text-center">忍者通運有限公司</h3>
+						<h2 class="h3 card-title text-center">忍者通運有限公司</h2>
 						<ul
 							class="d-flex flex-column align-items-start justify-content-evenly h-100 ps-3"
 						>
@@ -89,7 +89,7 @@
 		</main>
 		<div class="text-center mx-auto">
 			<RouterLink to="/" class="btn btn-danger btn-lg"
-				><h4 class="m-2 text-nowrap">返回首頁</h4></RouterLink
+				><p class="h4 m-2 text-nowrap">返回首頁</p></RouterLink
 			>
 		</div>
 	</div>
