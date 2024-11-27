@@ -301,20 +301,17 @@
 			};
 
 			const refreshAOS = () => {
-				// Ensures AOS updates after all elements are ready
 				AOS.refreshHard();
 			};
 
 			onMounted(async () => {
-				// Wait for the DOM to stabilize before initializing
 				await nextTick();
 				initCarousel();
 				initializeAOS();
 
-				// Delay refreshing AOS to ensure all content, including carousel, is loaded
 				setTimeout(() => {
 					refreshAOS();
-				}, 100); // Adjust timeout if needed
+				}, 100);
 			});
 
 			onActivated(async () => {
