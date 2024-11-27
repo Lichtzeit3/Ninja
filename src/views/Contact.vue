@@ -30,7 +30,9 @@
 					<div
 						class="card-body d-flex flex-column h-100 align-items-center justify-content-evenly"
 					>
-						<h2 class="h3 card-title text-center">忍者通運有限公司</h2>
+						<h2 class="h3 card-title text-center">
+							忍者通運有限公司
+						</h2>
 						<ul
 							class="d-flex flex-column align-items-start justify-content-evenly h-100 ps-3"
 						>
@@ -41,7 +43,9 @@
 									class="align-middle icon"
 									draggable="false"
 								/><span class="fs-5 align-middle ps-3 info"
-									>0932 873 910</span
+									><a href="tel:0932873910"
+										>0932 873 910</a
+									></span
 								>
 							</li>
 							<li>
@@ -51,7 +55,9 @@
 									class="align-middle icon"
 									draggable="false"
 								/><span class="fs-5 align-middle ps-3 info"
-									>ninjatw@gmail.com</span
+									><a href="mailto:ninjatw@gmail.com"
+										>ninjatw@gmail.com</a
+									></span
 								>
 							</li>
 							<li>
@@ -61,7 +67,11 @@
 									class="align-middle icon"
 									draggable="false"
 								/><span class="fs-5 align-middle ps-3 info"
-									>台北市內湖區瑞光路7巷1號2樓之一</span
+									><a
+										href="https://www.google.com/maps?q=%E5%8F%B0%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%E7%91%9E%E5%85%89%E8%B7%AF7%E5%B7%B71%E8%99%9F"
+										target="_blank"
+										>台北市內湖區瑞光路7巷1號2樓之一</a
+									></span
 								>
 							</li>
 						</ul>
@@ -149,10 +159,10 @@
 				max-width: 35rem;
 			}
 			@include breakpoint(576px) {
-					background: none !important;
-					box-shadow: none !important;
-					border: none !important;
-				}
+				background: none !important;
+				box-shadow: none !important;
+				border: none !important;
+			}
 			.contact-img {
 				@include breakpoint(992px) {
 					display: none;
@@ -165,7 +175,7 @@
 				@include breakpoint(992px) {
 					height: 25rem !important;
 				}
-				ul{
+				ul {
 					@include breakpoint(576px) {
 						padding: 0 !important;
 					}
@@ -174,15 +184,22 @@
 		}
 	}
 
-	.icon{
+	.icon {
 		@include breakpoint(576px) {
 			width: 30px;
 		}
 	}
 
-	.info{
+	.info {
 		@include breakpoint(576px) {
 			font-size: 1rem !important;
+		}
+		& a {
+			text-decoration: none;
+			color: #333;
+			&:hover {
+				color: $Red;
+			}
 		}
 	}
 
