@@ -277,7 +277,7 @@
 </template>
 
 <script>
-	import { onMounted, onActivated, onDeactivated } from "vue";
+	import { onMounted, onActivated, onDeactivated, nextTick } from "vue";
 	import AOS from "aos";
 	import "aos/dist/aos.css";
 
@@ -293,13 +293,34 @@
 				}
 			};
 
-			onMounted(() => {
-				AOS.init();
+			const initializeAOS = () => {
+				AOS.init({
+					duration: 1200,
+					once: false,
+				});
+			};
+
+			const refreshAOS = () => {
+				// Ensures AOS updates after all elements are ready
+				AOS.refreshHard();
+			};
+
+			onMounted(async () => {
+				// Wait for the DOM to stabilize before initializing
+				await nextTick();
 				initCarousel();
+				initializeAOS();
+
+				// Delay refreshing AOS to ensure all content, including carousel, is loaded
+				setTimeout(() => {
+					refreshAOS();
+				}, 100); // Adjust timeout if needed
 			});
 
-			onActivated(() => {
+			onActivated(async () => {
+				await nextTick();
 				initCarousel();
+				refreshAOS();
 			});
 
 			onDeactivated(() => {
