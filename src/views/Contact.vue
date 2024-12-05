@@ -78,7 +78,7 @@
 						<span
 							class="d-flex align-items-center justify-content-center"
 						>
-							<a href="#" target="_blank"
+							<a href="https://www.facebook.com/profile.php?id=61569922133237" target="_blank"
 								><img
 									src="../assets/images/icon/fb-dark.svg"
 									alt="facebook_icon"

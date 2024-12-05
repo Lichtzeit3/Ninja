@@ -41,7 +41,7 @@
 			<div class="media d-flex flex-column justify-content-center gap-3">
 				<!-- Link need to set up -->
 
-				<a href="#" target="_blank"
+				<a href="https://www.facebook.com/profile.php?id=61569922133237" target="_blank"
 					><img
 						src="@/assets/images/icon/facebook.svg"
 						alt="facebook"

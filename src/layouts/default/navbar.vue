@@ -35,7 +35,7 @@
 						0932 <span class="text-gold">873</span> 910
 					</span>
 					<div class="d-flex ms-3">
-						<a href="#" target="_blank" class="me-2">
+						<a href="https://www.facebook.com/profile.php?id=61569922133237" target="_blank" class="me-2">
 							<img
 								src="@/assets/images/icon/facebook.svg"
 								alt="facebook"
