@@ -52,7 +52,6 @@
 							src="../assets/images/home/motorbikes_L.webp"
 							class="d-block w-100"
 							alt="motorbikes"
-							loading="lazy"
 						/>
 					</picture>
 					<div
@@ -81,7 +80,6 @@
 							src="../assets/images/home/motorbikes2_L.webp"
 							class="d-block w-100"
 							alt="motorbikes"
-							loading="lazy"
 						/>
 					</picture>
 					<div
@@ -110,7 +108,6 @@
 							src="../assets/images/home/motorbikes3_L.webp"
 							class="d-block w-100"
 							alt="motorbikes"
-							loading="lazy"
 						/>
 					</picture>
 					<div
@@ -139,7 +136,6 @@
 							src="../assets/images/home/motorbikes4_L.webp"
 							class="d-block w-100"
 							alt="motorbikes"
-							loading="lazy"
 						/>
 					</picture>
 					<div
