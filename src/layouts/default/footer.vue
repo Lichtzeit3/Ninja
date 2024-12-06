@@ -18,7 +18,7 @@
 						alt="phone icon"
 						style="width: 1.25rem"
 					/>
-					0932 873 910
+					<a href="tel:0932873910">0932 873 910</a>
 				</li>
 				<li class="text-white">
 					<img
@@ -26,7 +26,7 @@
 						alt="email icon"
 						style="width: 1.25rem"
 					/>
-					ninjatw@gmail.com
+					<a href="mailto:ninjatw@gmail.com">ninjatw@gmail.com</a>
 				</li>
 				<li class="text-white">
 					<img
@@ -34,14 +34,20 @@
 						alt="pin icon"
 						style="width: 1.25rem"
 					/>
-					台北市內湖區瑞光路7巷2樓之一
+					<a
+						href="https://www.google.com/maps?q=%E5%8F%B0%E5%8C%97%E5%B8%82%E5%85%A7%E6%B9%96%E5%8D%80%E7%91%9E%E5%85%89%E8%B7%AF7%E5%B7%B71%E8%99%9F"
+						target="_blank"
+						>台北市內湖區瑞光路7巷1號2樓之一</a
+					>
 				</li>
 			</ol>
 			<!-- Media Link -->
 			<div class="media d-flex flex-column justify-content-center gap-3">
 				<!-- Link need to set up -->
 
-				<a href="https://www.facebook.com/profile.php?id=61569922133237" target="_blank"
+				<a
+					href="https://www.facebook.com/profile.php?id=61569922133237"
+					target="_blank"
 					><img
 						src="@/assets/images/icon/facebook.svg"
 						alt="facebook"
@@ -103,6 +109,14 @@
 					}
 					img {
 						margin-right: 0.5rem;
+					}
+					a {
+						text-decoration: none;
+						color: #fff;
+						transition: all 0.3s ease;
+						&:hover {
+							color: $Red;
+						}
 					}
 				}
 			}

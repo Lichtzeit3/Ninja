@@ -197,6 +197,7 @@
 		& a {
 			text-decoration: none;
 			color: #333;
+			transition: all 0.3s ease;
 			&:hover {
 				color: $Red;
 			}
