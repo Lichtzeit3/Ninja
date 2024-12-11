@@ -53,7 +53,7 @@
 						alt="facebook"
 						draggable="false"
 				/></a>
-				<a href="#" target="_blank"
+				<a href="https://lin.ee/Hc1y9nE" target="_blank"
 					><img
 						src="@/assets/images/icon/Line.svg"
 						alt="Line"
