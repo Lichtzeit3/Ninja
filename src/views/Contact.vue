@@ -43,8 +43,8 @@
 									class="align-middle icon"
 									draggable="false"
 								/><span class="fs-5 align-middle ps-3 info"
-									><a href="tel:0932873910"
-										>0932 873 910</a
+									><a href="tel:0287860836"
+										>02 8786 0836</a
 									></span
 								>
 							</li>
@@ -55,8 +55,8 @@
 									class="align-middle icon"
 									draggable="false"
 								/><span class="fs-5 align-middle ps-3 info"
-									><a href="mailto:ninjatw@gmail.com"
-										>ninjatw@gmail.com</a
+									><a href="mailto:admin@ninjatw.com"
+										>admin@ninjatw.com</a
 									></span
 								>
 							</li>

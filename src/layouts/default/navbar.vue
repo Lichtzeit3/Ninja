@@ -31,9 +31,9 @@
 						draggable="false"
 						class="me-3"
 					/>
-					<span class="text-white h3 mb-0 text-nowrap">
-						0932 <span class="text-gold">873</span> 910
-					</span>
+					<a href="tel:0287860836" class="text-decoration-none text-white h3 mb-0 text-nowrap">
+						02 <span class="text-gold">8786</span> 0836
+					</a>
 					<div class="d-flex ms-3">
 						<a href="https://www.facebook.com/profile.php?id=61569922133237" target="_blank" class="me-2">
 							<img

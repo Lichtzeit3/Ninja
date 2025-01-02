@@ -18,7 +18,7 @@
 						alt="phone icon"
 						style="width: 1.25rem"
 					/>
-					<a href="tel:0932873910">0932 873 910</a>
+					<a href="tel:0287860836">02 8786 0836</a>
 				</li>
 				<li class="text-white">
 					<img
@@ -26,7 +26,7 @@
 						alt="email icon"
 						style="width: 1.25rem"
 					/>
-					<a href="mailto:ninjatw@gmail.com">ninjatw@gmail.com</a>
+					<a href="mailto:admin@ninjatw.com">admin@ninjatw.com</a>
 				</li>
 				<li class="text-white">
 					<img
